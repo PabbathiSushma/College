@@ -67,7 +67,7 @@ int main()
             for (int i = 0; i < m; ++i) 
 {
                 cin >> u >> v;
-                A[u][v] = 1;     
+                A[u][v] = A[v][u] = 1;     
 }
 
 
@@ -122,7 +122,7 @@ int main()
             {
                 int u, v;
                 cin >> u >> v;
-                A[u][v] = 1; 
+                 A[u][v] = A[v][u] = 1;
             }
 
 
