@@ -1,0 +1,3742 @@
+﻿Web Technologies Lab Practicals 1
+WEEK 1
+1. Blockquotes demo
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head> <title> Blockquotes </title>
+  </head>
+  <body>
+    <p>
+      Motivation of the Day:
+    </p>
+    <blockquote>
+      <p>
+      "Eat Healthy, Stay Fit,
+      </p>
+      <p> 
+      Be Happy" 
+      </p>
+    </blockquote>
+  </body>
+</html>
+  
+
+
+
+2. Paragraph br tag demo
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title> Paragraph  br tag </title>
+</head>
+<body>
+ <p> Mary had a little lamb,<br/> 
+ its fleece was white as snow </p>
+</body>
+</html>
+  
+
+3. Font Tags
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title>bold italics underline small big monospace or code subscript superscript  em strong</title>
+</head>
+<body>
+ <b> Bold Tag</b> <br />
+ <u> Underline Tag</u> <br />
+ <i> Italics Tag</i> <br />
+ <small> Small Tag</small> <br />
+ <big> Big Tag</big> <br />
+ <code> Python Code to take input from user:
+    i = input("Input: ")  </code> <br />
+ (A+B)<sup>2</sup>= A<sup>2</sup>+B<sup>2</sup>+2*A*B <br/>
+ Water = H<sub>2</sub>O <br/>
+<em> Em Tag</em> <br />
+<strong>  Strong Tag</strong> <br />
+<marquee>It is used to create web pages.</marquee>
+</body>
+</html>
+  
+
+4. Header demo
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title> header  demo</title>
+</head>
+<body>
+  <h1> Aidan&#39;s Airplanes (h1) </h1>
+    <h2> The best in used airplanes (h2) </h2>
+    <h3> "We&#39;ve got them by the hangarful" (h3) </h3>
+    <h4> We&#39;re the guys to see for a good used airplane (h4) </h4>
+    <h5> We offer great prices on great planes (h5) </h5>
+    <h6> No returns, no guarantees, no refunds, all sales are final (h6) </h6>
+  </body>
+</html>
+  
+
+5. Header to be displayed in the center of the web page using p tag
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title> header  demo</title>
+</head>
+<body>
+<center>
+  <h1> Aidan&#39;s Airplanes (h1) </h1>
+    <h2> The best in used airplanes (h2) </h2>
+    <h3> "We&#39;ve got them by the hangarful" (h3) </h3>
+    <h4> We&#39;re the guys to see for a good used airplane (h4) </h4>
+    <h5> We offer great prices on great planes (h5) </h5>
+    <h6> No returns, no guarantees, no refunds, all sales are final (h6) </h6>
+</center>
+  </body>
+</html>
+
+
+  
+  
+
+6. Hr demo 
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title> hr demo </title>
+</head>
+<body>
+ <p> Mary had a little lamb,</p>
+ <hr/>
+<p> its fleece was white as snow </p>
+</body>
+</html>
+  
+
+
+
+
+
+7. Paragraph  demo
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title> Pararaph </title>
+</head>
+<body>
+ <p>
+ Mary had 
+a 
+ little lamb, its fleece was white as snow. And
+everywhere that
+Mary went, the lamb
+was sure to go. 
+</p>
+</body>
+</html>
+  
+
+8. Paragraph  demo 2
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title> Pararaph </title>
+</head>
+<body>
+ <p> Mary had a little lamb,</p> 
+<p> its fleece was white as snow </p>
+</body>
+</html>
+  
+
+9. Pre Demo
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title>bold italics underline small big monospae or code subsript superscript  </title>
+</head>
+<body>
+ <p><pre>
+Mary 
+        had 
+              a 
+                 little 
+                        lamb
+</pre> 
+</p>
+</body>
+</html>
+  
+
+
+
+
+
+WEEK 2
+1. Character demo
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title>charecter demo</title>
+</head>
+<body>
+<pre>
+C &amp; C++
+4 &lt; 5 
+5 &gt; 2
+&quot; Web Tehnologies &quot;
+stuednt&apos;s
+"krishna  prasad"
+</pre>
+</body> 
+</html>
+  
+
+2. Hyperlink Demo
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Links</title>
+  </head>
+  <body>
+    <h1>Aidan's Airplanes</h1>
+    <h2>The best airplane is</h2>
+    <p>
+      1960 Cessna 210 <br />
+      <a href="http://www.cs.nott.ac.uk/~pszbnk/WPS/C210data.html">
+        More Information
+      </a>
+    </p>
+  </body>
+</html>
+  
+
+3. Hyperlink on the same html file
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<p><a href="#C4">Jump to Chapter 4</a></p>
+<p><a href="#C7">Jump to Chapter 7</a></p>
+
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+<h2 id="C7">Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 10</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 11</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 12</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 13</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 14</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 15</h2>
+<p>This chapter explains ba bla bla</p>
+</body>
+</html>
+  
+
+
+
+4. Hyperlink to different HTML file
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<p><a href="hypin.xhtml#C4">Jump to Chapter 4</a></p>
+<p><a href="hypin.xhtml#C7">Jump to Chapter 7</a></p>
+</body>
+</html>
+  
+
+5. Image Demo
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head> <title> Simple Image </title>
+</head>
+  <body>
+    <p> Here is an image: </p>
+    <img src = "pic.jpeg" alt = "pic"  width="400" height="400" /> <br/>
+ <img src ="https://cdn.pixabay.com/photo/2015/12/06/04/31/indian-flag-1079100_960_720.jpg" alt="indianflag" width="400" height="100" />
+  </body>
+</html>
+  
+
+6. Meta Tag Demo
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+<title> meta tag</title>
+</head>
+<meta name = "keywords" content = "linked lists, stacks" />
+<body>
+<p>
+        A linked list is made up of many nodes which are connected in nature. 
+        Every node is mainly divided into two parts, one part holds the data and the other part is connected to a different node.
+</p>
+<p>
+        Stack is a linear data structure which follows a particular order in which the operations are performed. 
+        The data may be stored in LIFO(Last In First Out) 
+</p>
+
+
+</body>
+</html>
+  
+
+
+
+7. Meta Tag Demo 2
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head> <title> Our first document </title>
+          <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+                  <meta http-equiv="refresh" content="1" />
+                  <meta http-equiv="expires" content="wed 5 Dec 2001 10:00:00 EST" />
+          <meta http-equiv="content-language" content="eg" />
+  </head>
+  <body>
+    <p>
+      Marry had a little lamb 
+    </p>
+    <p>
+      its fleece was white as snow.
+    </p>          
+  </body>
+</html>
+  
+
+ASSIGNMENT-1
+1.  Create, test, and validate an XHTML document for yourself, including your personal details like name, roll no, address, e-mail address, etc. This document must use several headings and <em>, <strong>, <hr />, <p>, and <br /> ,<sub>,<sup> and Character Entities with attributes .
+
+
+3. Add pictures of yourself and at least one other image (of your friend, spouse, or pet) to the document created for Q1.
+
+
+4. Add a second document to the document created for Q1 that describes part of your background, using background as the link content. This document should have a few paragraphs of your personal or professional history.
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Personal Details</title>
+  </head>
+  <body>
+    <h1>Personal Information</h1>
+    <p><strong>Name:</strong> P. Sushma</p>
+    <p><strong>Roll No:</strong> 160122862019</p>
+    <hr />
+    <h2>Contact Information</h2>
+    <p><strong>Address:</strong> Barkatpura</p>
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:psushma0000@gmail.com"><em>psushma0000@gmail.com</em></a>
+    </p>
+    <hr />
+    <h2>Education</h2>
+    <p>
+      Pursuing <sub>Master of Computer Applications</sub> at Chaitanya Bharathi
+      Institute of Technology
+    </p>
+    <h2>Images</h2>
+    <p><strong>My Picture:</strong></p>
+    <img src="your_picture.jpg" alt="Your Picture" />
+    <p><strong>Friend's Picture:</strong></p>
+    <img src="friend_picture.jpg" alt="Friend's Picture" />
+    <h2><a href="background.xhtml">Background</a></h2>
+  </body>
+</html>
+
+
+background.xhtml:
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Background</title>
+</head>
+<body>
+    <h1>Background</h1>
+    <p>Hi, I'm P. Sushma. I have a strong background in computer science and technology. I completed my undergraduate degree in Computer Science from XYZ University. During my studies, I developed a passion for software development and web design.</p>
+    <p>After completing my bachelor's degree, I joined ABC Company as a software engineer. I've been working there for the past three years, gaining valuable experience in software development and project management.</p>
+</body>
+</html>
+  
+
+
+
+2. Create, test, and validate an XHTML document for yourself, including marks details semester-wise like name, roll no, semester, marks in subjects, total, per, grade, etc. This document must use several headings and <b>, <i> <u>, <pre>, <p> , <big>,<small>, tags with attributes
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>My Marks Details</title>
+  </head>
+  <body>
+    <h1>
+      <u><big>Marks Details</big></u>
+    </h1>
+    <h2>
+      <i><small>Name:</small></i>
+    </h2>
+    <p><b>P. Susham</b></p>
+    <h2>
+      <i><small>Roll No:</small></i>
+    </h2>
+    <p><b>19</b></p>
+    <h2>
+      <i><small>Semester 1</small></i>
+    </h2>
+    <p><b>MFCA:</b> 85</p>
+    <p><b>PnS:</b> 92</p>
+    <p><b>COA:</b> 78</p>
+    <p><b>SE:</b> 82</p>
+    <p><b>C:</b> 92</p>
+    <p><b>Total:</b> 429</p>
+    <p><b>Percentage:</b> 95%</p>
+    <p><b>Grade:</b> A</p>
+  </body>
+</html>
+  
+
+WEEK 3 
+1. Unordered List
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Unordered list </title>
+</head>
+<body>
+<h3> Fruits </h3>
+<ul>
+<li> Apple </li>
+<li> Banana </li>
+<li> Papaya </li>
+</ul>
+</body>
+</html>
+  
+
+
+
+2. Ordered List
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Ordered list </title>
+</head>
+<body>
+<h3> Weekdays </h3>
+<ol>
+<li> Monday </li>
+<li> Tuesday </li>
+<li> Wednesday </li>
+<li> Thrusday </li>
+<li> Friday </li>
+</ol>
+</body>
+</html>
+  
+
+3. Nested List
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Nested Fruit Lists</title>
+</head>
+<body>
+    <h3>Fruit Categories</h3>
+    <ul>
+        <li>Citrus Fruits
+            <ol>
+                <li>Orange</li>
+                <li>Lemon</li>
+                <li>Lime</li>
+            </ol>
+        </li>
+        <li>Berries
+            <ol>
+                <li>Strawberry</li>
+                <li>Blueberry</li>
+                <li>Raspberry</li>
+            </ol>
+        </li>
+        <li>Tropical Fruits
+            <ol>
+                <li>Banana</li>
+                <li>Pineapple</li>
+                <li>Mango</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
+  
+
+
+
+4. Definition List
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Definition lists </title>
+</head>
+<body>
+<h3> Full Forms </h3>
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language </dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets </dd>
+    <dt>JS</dt>
+    <dd>JavaScript </dd>
+</dl>
+</body>
+</html>
+  
+
+
+
+5. Image as a link
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<p>
+An image as a link: <a href="https://www.w3schools.com">
+<img border="2" alt="W3Schools" src="pic.jpeg" width="400" height="200"/>
+</a>
+</p>
+</body>
+</html>
+  
+
+
+
+ASSIGNMENT-2
+1. Create, test, and validate an XHTML document that describes an unordered list equivalent to your typical grocery shopping list. (If you’ve never written a grocery list, use your imagination.)
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <title>Grocery Shopping List</title>
+</head>
+<body>
+    <h1>Grocery Shopping List</h1>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apples</li>
+                <li>Bananas</li>
+                <li>Oranges</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Carrots</li>
+                <li>Broccoli</li>
+                <li>Tomatoes</li>
+            </ul>
+        </li>
+        <li>Dairy
+            <ul>
+                <li>Milk</li>
+                <li>Cheese</li>
+                <li>Yogurt</li>
+            </ul>
+        </li>
+        <li>Bakery
+            <ul>
+                <li>Bread</li>
+                <li>Bagels</li>
+                <li>Croissants</li>
+            </ul>
+        </li>
+        <li>Meat
+            <ul>
+                <li>Chicken</li>
+                <li>Beef</li>
+                <li>Pork</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+  
+
+2.Create, test, and validate an XHTML document that describes an unordered list of at least four states. Each element of the list must have a nested list of at least three cities in the state.
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <title>Indian States and Cities</title>
+</head>
+<body>
+    <h1>Indian States and Cities</h1>
+    <ul>
+        <li>Maharashtra
+            <ul>
+                <li>Mumbai</li>
+                <li>Pune</li>
+                <li>Nagpur</li>
+            </ul>
+        </li>
+        <li>Tamil Nadu
+            <ul>
+                <li>Chennai</li>
+                <li>Coimbatore</li>
+                <li>Madurai</li>
+            </ul>
+        </li>
+        <li>Karnataka
+            <ul>
+                <li>Bengaluru</li>
+                <li>Mysuru</li>
+                <li>Hubli</li>
+            </ul>
+        </li>
+        <li>Rajasthan
+            <ul>
+                <li>Jaipur</li>
+                <li>Jodhpur</li>
+                <li>Udaipur</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+  
+
+3. Create, test, and validate an XHTML document that describes an ordered list of your five favourite movies.
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Favorite Indian Movies</title>
+</head>
+<body>
+    <h1>My Five Favorite Indian Movies</h1>
+    <ol>
+        <li>Sholay (1975)</li>
+        <li>Lagaan (2001)</li>
+        <li>3 Idiots (2009)</li>
+        <li>Dilwale Dulhania Le Jayenge (1995)</li>
+        <li>Bahubali: The Beginning (2015)</li>
+    </ol>
+</body>
+</html>
+  
+
+
+
+4. Modify the list of 3 to add nested, unordered lists of at least two actors and/or actresses in your favourite movies.
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Favorite Indian Movies with Actors/Actresses</title>
+</head>
+<body>
+    <h1>My Five Favorite Indian Movies</h1>
+    <ol>
+        <li>Sholay (1975)
+            <ul>
+                <li>Actor: Amitabh Bachchan</li>
+                <li>Actress: Hema Malini</li>
+            </ul>
+        </li>
+        <li>Lagaan (2001)
+            <ul>
+                <li>Actor: Aamir Khan</li>
+                <li>Actress: Gracy Singh</li>
+            </ul>
+        </li>
+        <li>3 Idiots (2009)
+            <ul>
+                <li>Actor: Aamir Khan</li>
+                <li>Actress: Kareena Kapoor Khan</li>
+            </ul>
+        </li>
+        <li>Dilwale Dulhania Le Jayenge (1995)
+            <ul>
+                <li>Actor: Shah Rukh Khan</li>
+                <li>Actress: Kajol</li>
+            </ul>
+        </li>
+        <li>Bahubali: The Beginning (2015)
+            <ul>
+                <li>Actor: Prabhas</li>
+                <li>Actress: Anushka Shetty</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
+  
+
+5. Create, test, and validate an XHTML document that describes an ordered list with the following contents: The highest level should be the names of your parents, with your mother first. Under each parent, you must have a nested, ordered list of the brothers and sisters of your parents, in order by age, eldest first. Each of the nested lists in turn must have nested lists that list the children of your uncles and aunts (your cousins)—under the proper parents, of course. Regardless of how many aunts, uncles, and cousins you actually have, there must be at least three list items in each sublist below each of your parents and below each of your aunts and uncles.
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <title>Family Tree</title>
+</head>
+<body>
+    <h1>My Family</h1>
+    <ol>
+        <li>Mother: Vijaya Laxmi
+            <ol>
+                <li>Brothers and Sisters of My Mother:
+                    <ol>
+                        <li>Gayatri
+                            <ol>
+                                <li>Jyothsna</li>
+                                <li>Vishnu Charan</li>
+                            </ol>
+                        </li>
+                        <li>Anand Kumar
+                            <ol>
+                                <li>Akshara Tanvi</li>
+                                <li>Vihaan Vedhansh</li>
+                            </ol>
+                        </li>
+                        <li>Harish Kumar
+                            <ol>
+                                <li>Havish Jayansh</li>
+                                <li>Lishan Venkat</li>
+                            </ol>
+                        </li></ol></li></ol>
+        </li>
+        <li>Father: Narsing Rao
+            <ol>
+                <li>Brothers and Sisters of My Father:
+                    <ol>
+                        <li>Aruna
+                            <ol>
+                                <li>Likitha</li>
+                                <li>Prem Sai</li>
+                            </ol>
+                        </li>
+                        <li>Sudershan
+                            <ol>
+                                <li>Ram Charan</li>
+                                <li>Shiva Charan</li>
+                            </ol>
+                        </li>
+                        <li>Padmavathi
+                            <ol>
+                                <li>Jeevan Krithk</li>
+                                <li>Mukundh Aditya</li>
+                            </ol>
+                        </li> </ol> </li> </ol> </li> </ol>
+</body>
+</html>
+  
+
+
+
+WEEK 4
+1. Simple Table Demo
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- table.html
+An example of a simple table
+-->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> A simple table </title>
+</head>
+<body>
+<table border = "border">
+<caption> Fruit Juice Drinks </caption>
+<tr>
+<th> </th>
+<th> Apple </th>
+<th> Orange </th>
+<th> Banana </th>
+</tr>
+<tr>
+<th> Breakfast </th>
+<td> 0 </td>
+<td> 1 </td>
+<td> 0 </td>
+</tr>
+<tr>
+<th> Lunch </th>
+<td> 1 </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+<tr>
+<th> Dinner </th>
+<td> 0 </td>
+<td> 0 </td>
+<td> 1 </td>
+</tr>
+</table>
+</body>
+</html>
+  
+
+2. Illustrate Align and Valign
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- cell_align.html
+An example to illustrate align and valign
+-->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Alignment in cells </title>
+</head>
+<body>
+<table border = "border">
+<caption> The align and valign attributes </caption>
+<tr align = "center">
+<th> </th>
+<th> Column Label </th>
+<th> Another One </th>
+<th> Still Another One </th>
+</tr>
+<tr>
+<th> align </th>
+<td align = "left"> Left </td>
+<td align = "center"> Center </td>
+<td align = "right"> Right </td>
+</tr>
+<tr>
+<th> <br /> valign <br /> <br /> </th>
+<td> Default </td>
+<td valign = "top"> Top </td>
+<td valign = "bottom"> Bottom </td>
+</tr>
+</table>
+</body>
+</html>
+  
+
+
+
+3. CellSpacing and CellPadding
+ 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Cell spacing and cell padding</title>
+  </head>
+  <body>
+    <b>Table 1 (space = 10, pad = 30) </b><br /><br />
+    <table border="5" cellspacing="10" cellpadding="30">
+      <tr>
+        <td>Small spacing,</td>
+        <td>large padding</td>
+      </tr>
+    </table>
+    <br /><br /><br /><br />
+    <b>Table 2 (space = 30, pad = 10) </b><br /><br />
+    <table border="5" cellspacing="30" cellpadding="10">
+      <tr>
+        <td>Large spacing,</td>
+        <td>small padding</td>
+      </tr>
+    </table>
+  </body>
+</html>
+  
+
+
+
+4. Rowspan and Colspan
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Rowspan and colspan </title>
+</head>
+<body>
+<table border = "border">
+<caption> Fruit Juice Drinks and Meals </caption>
+<tr>
+<td rowspan = "2"> </td>
+<th colspan = "3"> Fruit Juice Drinks </th>
+</tr>
+<tr>
+<th> Apple </th>
+<th> Orange </th>
+<th> Banana </th>
+</tr>
+<tr>
+<th> Breakfast </th>
+<td> 0 </td>
+<td> 1 </td>
+<td> 0 </td>
+</tr>
+<tr>
+<th> Lunch </th>
+<td> 1 </td>
+<td> 0 </td>
+<td> 0 </td>
+</tr>
+<tr>
+<th> Dinner </th>
+<td> 0 </td>
+<td> 0 </td>
+<td> 1 </td>
+</tr>
+</table>
+</body>
+</html>
+
+
+  
+
+5. Table Sections
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Table Sections
+-->
+<html xmlns = "http://www.w3.org/1999/xhtml"> 
+<head> <title> Table Sections </title>
+</head>
+<body>
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table> 
+</body>
+</html>
+  
+
+
+
+6. Text Align
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head> 
+<title> Align Text </title>
+    <style type = "text/css">
+      p.indent {text-indent: 0.5in}
+      p.ar{text-align: right}
+    </style>
+  </head>
+  <body>
+    <p class="indent">
+      This text displays with 0.5 indentation 
+    </p>
+    <p class="ar">
+       This text displays to right side
+    </p>
+  </body>
+</html>
+  
+
+
+
+ASSIGNMENT-3
+1. Create, test, and validate an XHTML document that describes a table with the following contents: The columns of the table must have the headings “Pine”, “Maple”, “Oak”, and “Fir”. The rows must have the labels “Average Height”, “Average Width”, “Typical Life Span”, and “Leaf Type”. You can make up the data cell values.
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tree Table</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Tree Information</caption>
+        <tr>
+            <th></th>
+            <th>Pine</th>
+            <th>Maple</th>
+            <th>Oak</th>
+            <th>Fir</th>
+        </tr>
+        <tr>
+            <td>Average Height</td>
+            <td>20-50 feet</td>
+            <td>40-100 feet</td>
+            <td>30-60 feet</td>
+            <td>50-70 feet</td>
+        </tr>
+        <tr>
+            <td>Average Width</td>
+            <td>10-20 feet</td>
+            <td>30-60 feet</td>
+            <td>40-60 feet</td>
+            <td>20-30 feet</td>
+        </tr>
+        <tr>
+            <td>Typical Life Span</td>
+            <td>100-200 years</td>
+            <td>50-150 years</td>
+            <td>50-100 years</td>
+            <td>50-100 years</td>
+        </tr>
+        <tr>
+            <td>Leaf Type</td>
+            <td>Evergreen</td>
+            <td>Deciduous</td>
+            <td>Deciduous</td>
+            <td>Evergreen</td>
+        </tr>
+    </table>
+</body>
+</html>
+  
+
+
+
+2. Modify, test, and validate  XHTML document in Question 1 that adds a second-level column label, “Tree”, and a second-level row label, “Characteristics”.
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD/XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Spanning Attributes</title>
+    </head>
+    <body>
+        <table border="border">
+            <tr>
+                <th rowspan="2">Characteristics</th>
+                <th colspan="4">Tree Types</th>
+            </tr>
+            <tr>
+                <th>Pine</th>
+                <th>Maple</th>
+                <th>Oak</th>
+                <th>Fir</th>
+            </tr>
+            <tr>
+                <td>Average Height</td>
+                <td>20-50 feet</td>
+                <td>40-100 feet</td>
+                <td>30-60 feet</td>
+                <td>50-70 feet</td>
+            </tr>
+            <tr>
+                <td>Average Width</td>
+                <td>10-20 feet</td>
+                <td>30-60 feet</td>
+                <td>40-60 feet</td>
+                <td>20-30 feet</td>
+            </tr>
+            <tr>
+                <td>Typical Life Span</td>
+                <td>100-200 years</td>
+                <td>50-150 years</td>
+                <td>50-100 years</td>
+                <td>50-100 years</td>
+            </tr>
+            <tr>
+                <td>Leaf Type</td>
+                <td>Evergreen</td>
+                <td>Deciduous</td>
+                <td>Deciduous</td>
+                <td>Evergreen</td>
+            </tr>
+        </table>
+    </body>
+</html>
+  
+
+3. Create, test, and validate an XHTML document that defines a table with columns for stathe te, state bird, state flower, and state tree. There must be at least five rows for states in the table. You must include attribute specifications for cellpadding and cellspacing.
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Indian States Table</title>
+</head>
+<body>
+    <table border="border" cellpadding="20" cellspacing="10">
+        <caption>Indian States and Symbols</caption>
+        <tr>
+            <th>State</th>
+            <th>State Bird</th>
+            <th>State Flower</th>
+            <th>State Tree</th>
+        </tr>
+        <tr>
+            <td>Telangana</td>
+            <td>Indian Roller</td>
+            <td>Tangidi Puvvu</td>
+            <td>Pala Patti</td>
+        </tr>
+        <tr>
+            <td>Karnataka</td>
+            <td>Indian Roller</td>
+            <td>Lotus</td>
+            <td>Sandalwood</td>
+        </tr>
+        <tr>
+            <td>Andhra Pradesh</td>
+            <td>Indian Roller</td>
+            <td>Indian Lotus</td>
+            <td>Neem Tree</td>
+        </tr>
+        <tr>
+            <td>Kerala</td>
+            <td>Great Hornbill</td>
+            <td>Kanikonna</td>
+            <td>Coconut Tree</td>
+        </tr>
+        <tr>
+            <td>Rajasthan</td>
+            <td>Indian Bustard</td>
+            <td>Rohida</td>
+            <td>Khejri Tree</td>
+        </tr>
+    </table>
+</body>
+</html>
+  
+
+4. Create, test, and validate an XHTML document that defines a table with two levels of column labels: an overall label, “Meals”, and three secondary labels, “Breakfast”,  “Lunch”, and “Dinner”. There must be two levels of row labels: an overall label, “Foods”, and four secondary labels, “Bread”, “Main Course”, “Vegetable”, and “Dessert”. The cells of the table must contain a number of grams for each of the food categories.
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Meal Grams Table</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Meal Grams</caption>
+        <colgroup span="1"></colgroup>
+        <colgroup span="3"></colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2">Meals</th>
+                <th colspan="4">Foods</th>
+            </tr>
+            <tr>
+                <th>Bread</th>
+                <th>Main Course</th>
+                <th>Vegetable</th>
+                <th>Dessert</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Breakfast</th>
+                <td>50g</td>
+                <td>200g</td>
+                <td>100g</td>
+                <td>30g</td>
+            </tr>
+            <tr>
+                <th>Lunch</th>
+                <td>60g</td>
+                <td>250g</td>
+                <td>150g</td>
+                <td>40g</td>
+            </tr>
+            <tr>
+                <th>Dinner</th>
+                <td>40g</td>
+                <td>180g</td>
+                <td>120g</td>
+                <td>50g</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+  
+
+5. Create, test, and validate an XHTML document that is the home page of a business, Tree Branches, Unlimited, that sells tree branches. This document must include images and descriptions of at least three different kinds of tree branches. There must be at least one unordered list, one ordered list, and one table. Detailed descriptions of the different branches must be stored in separate documents that are accessible through links from the home document. You must invent several practical uses for tree branches and include sales pitches for them.
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <title>Tree Branches, Unlimited - Home</title>
+</head>
+<body>
+   
+        <h2>Our Tree Branches</h2>
+       
+        <p>At Tree Branches, Unlimited, we offer a variety of tree branches for all your needs. Here are some of our top picks:</p>
+       
+        <h3>Maple Branches</h3>
+        <img src="https://www.thespruce.com/thmb/BQdO8VDSQrb5dPLU3gBwixlBAVA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/thirteen-species-of-maple-trees-3269671-01-019176c2bca14f7eb0609334ba1f14a4.jpg" alt="maple_bramches" height="250" width="250"/>
+        <p>Maple branches are known for their sturdiness and beautiful autumn colors. They are perfect for DIY crafts and home decor.</p>
+        <ul>
+            <li><a href="maple.xhtml">Maple Branches</a></li>
+            <li><a href="maple.xhtml#maplesales">Sales</a></li>
+        </ul>
+       
+        <h3>Willow Branches</h3>
+        <img src="https://housing.com/news/wp-content/uploads/2023/01/WILLOW-TREE-FEATURE-compressed.jpg" height="250" width="250" alt="Willow Branches"/>
+        <p>Willow branches are flexible and can be used for weaving, wreath-making, and unique garden structures.</p>
+        <ol>
+            <li><a href="willow.xhtml">Willow Branches</a></li>
+            <li><a href="willow.xhtml#willowsales">Sales</a></li>
+        </ol>
+       
+
+
+
+
+        <h3>Pine Branches</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Lodgepole_pine_tree_with_mostly_serotinous_pine_cones_on_branches_%28a538ba5c-4fab-4971-8447-0c9fc0e9d3a8%29.jpg" height="250" width="250" alt="Pine Branches"/>
+        <p>Pine branches can be used for holiday decorations, adding a festive touch to your home during Christmas.</p>
+        <table>
+            <tr>
+                <th align="left"><a href="pine.xhtml">Pine Branches</a></th>
+            </tr>
+            <tr>
+                <th align="left"><a href="pine.xhtml#pinesales">Sales</a></th>
+            </tr>
+        </table>
+
+
+   
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to place an order, please <a href="contact.html">contact us</a>.</p>
+   
+    <footer>
+        <p>&copy; 2023 Tree Branches, Unlimited. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+maple.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Maple Branches</title>
+    </head>
+    <body>
+        <h3>Mapple Branches</h3>
+        <img src="https://www.thespruce.com/thmb/BQdO8VDSQrb5dPLU3gBwixlBAVA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/thirteen-species-of-maple-trees-3269671-01-019176c2bca14f7eb0609334ba1f14a4.jpg" alt="maple_bramches" height="250" width="250"/>
+        <p>Maple branches are known for their sturdiness and beautiful autumn colors. They are perfect for DIY crafts and home decor.</p>
+        <h3>maple branches are useful in:</h3>
+        <ul>
+            <li>furniture</li>
+            <li>flooring</li>
+            <li>musical instruments</li>
+            <li>wooden bowls</li>
+        </ul>
+        <div id="maplesales">
+        <h3>Sales of Maple Branches:</h3>
+        <p>Every year 2000 Tons of maple branches are sold across the world</p>
+        <p>Demand for this branches are high.</p>
+        <p>Cost : 3000$ per Ton</p>
+        </div>
+    </body>
+</html>
+
+
+willow.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head><Title>Willow Branches</Title></head>
+    <body>
+        <h3>Willow Branches</h3>
+        <img src="https://housing.com/news/wp-content/uploads/2023/01/WILLOW-TREE-FEATURE-compressed.jpg" height="250" width="250" alt="Willow Branches"/>
+        <p>Willow branches are flexible and can be used for weaving, wreath-making, and unique garden structures.</p>
+        <h3>Willow branches are useful in:</h3>
+        <ol>
+            <li> arrow shafts</li>
+            <li>For Crafting and Art Project</li>
+            <li>For Natural Pain Relief.</li>
+            <li>garden structures</li>
+        </ol>
+        <h3 id="willowsales">Sales of Willow Branches:</h3>
+        <p>Every year 2000 Tons of willow branches are sold across the world</p>
+        <p>Demand for this branches are high.</p>
+        <p>Cost : 5000$ per Ton</p>
+    </body>
+</html>
+
+
+pine.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Pine Branches</title>
+    </head>
+    <body>
+        <h3>Pine Branches</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Lodgepole_pine_tree_with_mostly_serotinous_pine_cones_on_branches_%28a538ba5c-4fab-4971-8447-0c9fc0e9d3a8%29.jpg" height="250" width="250" alt="Pine Branches"/>
+        <p>Pine branches can be used for holiday decorations, adding a festive touch to your home during Christmas.</p>
+        <h3>Willow branches are useful in:</h3>
+        <ol>
+            <li> arrow shafts</li>
+            <li>For Crafting and Art Project</li>
+            <li>For Natural Pain Relief.</li>
+            <li>garden structures</li>
+        </ol>
+        <h3 id="pinesales">Sales of Willow Branches:</h3>
+        <p>Every year 2000 Tons of willow branches are sold across the world</p>
+        <p>Demand for this branches are high.</p>
+        <p>Cost : 5000$ per Ton</p>
+    </body>
+</html>
+  
+
+WEEK 5
+1. Checkbox
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Checkboxes </title>
+</head>
+<body>
+<p>
+Grocery Checklist
+</p>
+<form action = "">
+<p>
+<label> <input type = "checkbox" name = "groceries"
+value = "milk" checked = "checked" /> Milk </label>
+<label> <input type = "checkbox" name = "groceries1"
+value = "bread" /> Bread </label>
+<label> <input type = "checkbox" name = "groceries2"
+value = "eggs" /> Eggs </label>
+</p>
+</form>
+</body>
+</html>
+  
+
+2. Radio buttons
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Radio </title>
+</head>
+<body>
+<p>
+Age Category
+</p>
+<form action = "">
+<p>
+<label><input type = "radio" name = "age"
+value = "under20" /> 0-19 </label>
+<label><input type = "radio" name = "age"
+value = "20-35" /> 20-35 </label>
+<label><input type = "radio" name = "age"
+value = "36-50" /> 36-50 </label>
+<label><input type = "radio" name = "age"
+value = "over50" /> Over 50 </label>
+</p>
+</form>
+</body>
+</html>
+  
+
+3. Menus
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Menu </title>
+</head>
+<body>
+<p>
+Grocery Menu - milk, bread, eggs, cheese
+</p>
+<form action = "">
+<p>
+With size = 1 (the default)
+<select name = "groceries">
+<option> milk </option>
+<option> bread </option>
+<option> eggs </option>
+<option> cheese </option>
+</select>
+</p>
+</form>
+</body>
+</html>
+  
+
+4. Textarea
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Textarea </title>
+</head>
+<body>
+<p>
+Please provide your employment aspirations
+</p>
+<form action = "handler">
+<p>
+<textarea name = "aspirations" rows = "3" cols = "40">
+(Be brief and concise)
+</textarea>
+</p>
+</form>
+</body>
+</html>
+  
+
+5. Form Demo
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title> Popcorn Sales Form </title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+<body>
+  <form action="">
+    <h2> Welcome to Millennium Gymnastics Booster Club Popcorn Sales </h2>
+    <table>
+      <tr>
+        <td> Buyer's Name: </td>
+        <td> <input type="text" name="name" size="30" /> </td>
+      </tr>
+      <tr>
+        <td> Street Address: </td>
+        <td> <input type="text" name="street" size="30" /> </td>
+      </tr>
+      <tr>
+        <td> City, State, Zip: </td>
+        <td> <input type="text" name="city" size="30" /> </td>
+      </tr>
+    </table>
+    <table border="border">
+      <tr>
+        <th> Product Name </th>
+        <th> Price </th>
+        <th> Quantity </th>
+      </tr>
+      <tr>
+        <th> Unpopped Popcorn (1 lb.) </th>
+        <td> $3.00 </td>
+        <td> <input type="text" name="unpop" size="2" /> </td>
+      </tr>
+      <tr>
+        <th> Caramel Popcorn (2 lb. canister) </th>
+        <td> $3.50 </td>
+        <td> <input type="text" name="caramel" size="2" /> </td>
+      </tr>
+      <tr>
+        <th> Caramel Nut Popcorn (2 lb. canister) </th>
+        <td> $4.50 </td>
+        <td> <input type="text" name="caramelnut" size="2" /></td>
+      </tr>
+      <tr>
+        <th> Toffey Nut Popcorn (2 lb. canister) </th>
+        <td> $5.00 </td>
+        <td> <input type="text" name="toffeynut" size="2" /></td>
+      </tr>
+    </table>
+    <h3> Payment Method: </h3>
+    <p>
+      <input type="radio" name="payment" value="visa" checked="checked" /> Visa
+      <input type="radio" name="payment" value="mc" /> Master Card
+      <input type="radio" name="payment" value="discover" /> Discover
+      <input type="radio" name="payment" value="check" /> Check <br />
+    </p>
+    <p>
+      <input type="submit" value="Submit Order" />
+      <input type="reset" value="Clear Order Form" />
+    </p>
+  </form>
+</body>
+
+
+</html>
+  
+
+6. Frames
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Frames </title>
+  </head>
+  <frameset cols = "20,80"  noresize = "noresize">
+    <frame src = "contents.xhtml" />
+    <frame src = "fruits.xhtml"  name = "descriptions" />
+  </frameset>
+</html>
+
+
+contents.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Table of Contents Frame </title>
+</head>
+<body>
+<h4> Fruits </h4>
+<ul>
+    <li> <a href = "apples.xhtml"  target = "descriptions"> 
+            apples </a> 
+    </li>
+    <li> <a href = "bananas.xhtml"  target = "descriptions">
+            bananas </a>
+    </li>
+    <li> <a href = "oranges.xhtml"  target = "descriptions">
+            oranges </a>
+    </li>
+</ul>
+</body>
+</html>
+
+
+apples.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Information on Apples</title>
+  </head>
+  <body>
+    <p>
+      An Apples is ... 
+    </p> 
+  </body>
+</html>
+
+
+bananas.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Information on Bananas </title>
+  </head>
+  <body>
+    <p>
+      An Banana is ... 
+    </p> 
+  </body>
+</html>
+
+
+oranges.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Information on oranges</title>
+  </head>
+  <body>
+    <p>
+      An oranges is ... 
+    </p> 
+  </body>
+</html>
+
+
+fruits.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> General Information on Fruits </title>
+  </head>
+  <body>
+    <p>
+      A fruit is the mature ovary in a flowering plant.
+      Fruit is clasified by several characteristics, the
+      most important being the number of ovaries included.
+      If only a single ovary is included, it is called a
+      simple fruit.
+    </p> 
+  </body>
+</html>
+  
+
+7. Frames Set
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<frameset cols="25%, 75%">
+<frame src="contents.xhtml"/>
+<frameset rows="33%, 33%, 33%">
+<frame src="fruits.xhtml" name="apple"/>
+<frame src="fruits.xhtml" name="banana"/>
+<frame src="fruits.xhtml" name="orange"/>
+</frameset>
+</frameset>
+
+
+contents.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Table of Contents Frame </title>
+</head>
+<body>
+<h4> Fruits </h4>
+<ul>
+    <li> <a href = "apples.xhtml"  target = "apple"> 
+            apples </a> 
+    </li>
+    <li> <a href = "bananas.xhtml"  target = "banana">
+            bananas </a>
+    </li>
+    <li> <a href = "oranges.xhtml"  target = "orange">
+            oranges </a>
+    </li>
+</ul>
+</body>
+</html>
+
+
+apples.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Information on Apples</title>
+  </head>
+  <body>
+    <p>
+      An Apples is ... 
+    </p> 
+  </body>
+</html>
+
+
+bananas.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Information on Bananas </title>
+  </head>
+  <body>
+    <p>
+      An Banana is ... 
+    </p> 
+  </body>
+</html>
+
+
+oranges.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Information on oranges</title>
+  </head>
+  <body>
+    <p>
+      An oranges is ... 
+    </p> 
+  </body>
+</html>
+
+
+fruits.xhtml:
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> General Information on Fruits </title>
+  </head>
+  <body>
+    <p>
+      A fruit is the mature ovary in a flowering plant.
+      Fruit is clasified by several characteristics, the
+      most important being the number of ovaries included.
+      If only a single ovary is included, it is called a
+      simple fruit.
+    </p> 
+  </body>
+</html>
+  
+
+8. Menu Demo 2
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Menu </title>
+</head>
+<body>
+<p>
+Grocery Menu - milk, bread, eggs, cheese
+</p>
+<form action = "">
+<p>
+With size = 2 (the default)
+<select name = "groceries" size = "2">
+<option> milk </option>
+<option> bread </option>
+<option> eggs </option>
+<option> cheese </option>
+</select>
+</p>
+</form>
+</body>
+</html>
+  
+
+
+
+ASSIGNMENT-4
+
+
+1. Create, test, and validate an XHTML document that has a form with the following controls:
+a. A text box to collect the user’s name
+b. Four checkboxes, one each for the following items:
+i. Four 100-watt light bulbs for $2.39
+ii. Eight 100-watt light bulbs for $4.29
+iii. Four 100-watt, long-life light bulbs for $3.95
+iv. Eight 100-watt, long-life light bulbs for $7.49
+c. A collection of three radio buttons that are labeled as follows:
+                i. Visa
+                ii. Master Card
+                iii. Discover
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Order Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: aquamarine;
+            color: #333;
+            text-align: center;
+        }
+        form {
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: yellow;
+            text-align: left;
+            padding: 2%;
+            margin: 3%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Light Bulb Order Form</h1>
+    <form action="">
+        <label>Name: <input type="text" id="name" name="name" /></label>
+        <br /><br />
+        <label>Choose Bulbs:</label><br />
+        <label><input type="checkbox" id="bulb1" name="bulbs" value="4_100w" /> Four
+            100-watt light bulbs for $2.39</label><br />
+
+
+        <label><input type="checkbox" id="bulb2" name="bulbs" value="8_100w" /> Eight
+            100-watt light bulbs for $4.29</label><br />
+
+
+        <label><input type="checkbox" id="bulb3" name="bulbs" value="4_100w_longlife" />
+            Four 100-watt, long-life light bulbs for $3.95</label><br />
+
+
+        <label><input type="checkbox" id="bulb4" name="bulbs" value="8_100w_longlife" />
+            Eight 100-watt, long-life light bulbs for $7.49</label><br />
+
+
+        <br />
+        <label>Payment Method:</label><br />
+        <label><input type="radio" id="visa" name="payment" value="visa" />
+            Visa</label>
+
+
+        <label><input type="radio" id="mastercard" name="payment" value="mastercard" />
+            Master Card</label>
+
+
+        <label><input type="radio" id="discover" name="payment" value="discover" />
+            Discover</label>
+
+
+        <label><input type="radio" id="discover" name="payment" value="Cheque" />
+            Cheque</label>
+        <br />
+        <br />
+        <p>
+            <input type="submit" value="Submit Order" />
+            <input type="reset" value="Clear Order Form" />
+        </p>
+    </form>
+</body>
+
+
+</html>
+  
+
+2. Create, test, and validate an XHTML document that has five frames.
+There must be two rows of frames, the first with three frames and the other with two frames. The frames in the first row must have equal width. The left frame in the second row must be 55 percent of the width of the display. Each of the frames in the top row must display a document that has a form. The left top frame must have two text boxes, each 30 characters wide, labeled Name and Address. The middle top frame must have five radio buttons with color name labels. The right top frame must have four checkboxes, labeled with four kinds of car equipment such as a CD player and air conditioning. The two bottom frames must have images of two different cars. The top row of frames must use 20 percent of the height of the display.
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Frame Example</title>
+</head>
+<frameset rows="20%, 80%">
+    <frameset cols="33%, 33%, 34%">
+        <frame src="frame1.xhtml" />
+        <frame src="frame2.xhtml" />
+        <frame src="frame3.xhtml" />
+    </frameset>
+    <frameset cols="55%, 45%">
+        <frame src="car1.jpg" />
+        <frame src="car2.jpg" />
+    </frameset>
+</frameset>
+</html>
+
+
+frame1.xhtml:
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Form Frame 1</title>
+    </head>
+    <body>
+        <h3>Details</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" size="30" /><br /> <br/>
+    
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" size="30" /><br />
+        </form>
+    </body>
+    </html>
+
+
+frame2.xhtml:
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Form Frame 2</title>
+    </head>
+    <body>
+        <h3>Color</h3>
+        <form>
+            <input type="radio" id="red" name="color" value="red" />
+            <label for="red">Red</label>
+            
+            <input type="radio" id="blue" name="color" value="blue" />
+            <label for="blue">Blue</label>
+            
+            <input type="radio" id="green" name="color" value="green" />
+            <label for="green">Green</label><br />
+            
+            <input type="radio" id="yellow" name="color" value="yellow" />
+            <label for="yellow">Yellow</label>
+            
+            <input type="radio" id="orange" name="color" value="orange" />
+            <label for="orange">Orange</label>
+
+
+            <input type="radio" id="white" name="color" value="white" />
+            <label for="white">White</label>
+        </form>
+    </body>
+    </html>
+
+
+frame3.xhtml:
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Form Frame 3</title>
+    </head>
+    <body>
+        <h3>Car equipments</h3>
+        <form>
+            <label for="equipment1">
+                <input type="checkbox" id="equipment1" name="equipment" value="cd_player" />
+                CD Player
+            </label><br />
+            
+            <label for="equipment2">
+                <input type="checkbox" id="equipment2" name="equipment" value="air_conditioning" />
+                Air Conditioning
+            </label><br />
+            
+            <label for="equipment3">
+                <input type="checkbox" id="equipment3" name="equipment" value="navigation_system" />
+                Navigation System
+            </label><br />
+            
+            <label for="equipment4">
+                <input type="checkbox" id="equipment4" name="equipment" value="heated_seats" />
+                Heated Seats
+            </label><br />
+        </form>
+    </body>
+    </html>
+
+
+  
+
+WEEK 6
+1. Inline style
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Information on Apples</title>
+  </head>
+  <body>
+     <h1 style="color:blue;">A Blue Heading</h1>
+     <p style="color:red;">A red paragraph.</p> 
+  </body>
+</html>
+  
+
+2. Document Level Style
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title> Our first document </title>
+<style>
+h2 {font-size: 32pt; font-weight: bold;font-family: 'Times New Roman';}
+h3,h4 { font-size: 18pt; font-family: 'Courier New'; font-style:italic;font-weight:bold}
+</style>
+</head> 
+<body>
+<h1> Twinkle twinkle little star</h1>
+<h2> how I wonder </h2>
+<h3>what you are ???</h3>
+<h4>up above the world so high</h4>
+<h5> like adiamond</h5>
+<h6> in the sky.</h6>
+</body>
+</html>
+  
+
+3. External Link Style
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title> External syle sheet</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+
+
+style.css:
+
+
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+  
+
+4. External Style using @import
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title> External syle sheet</title>
+<style type="text/css">
+@import url(style.css)
+</style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+
+
+style.css:
+
+
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+  
+
+
+
+5. Simple Selector 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+p {
+  text-align: center;
+  color: red;
+} 
+h1 {font-size: 24pt;}
+h2, h3 {font-size: 20pt;}
+</style>
+</head>
+<body>
+<h1>Header 1  will be affected by font_size: 24pt</h1>
+<h2> Header 1  will be affected by font_size: 20pt</h2>
+<h3> Header 3 will be affected by font_size: 20pt </h3>
+<p>Every paragraph will be affected by the style.</p>
+<p>And me!</p>
+<p> me also</p>
+</body>
+</html>
+  
+
+6. Contextual selectors
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+body b i  {font-size: 50pt;}  
+</style>
+</head>
+<body>
+<p>This paragraph is not affected by the style.</p>
+<b><i>This paragraph is affected font-size: 50pt</i></b>
+</body>
+</html>
+  
+
+
+
+7. Class Selector
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+p.normal {
+  text-align: left;
+  }
+p.warning {
+  font-size: 300%;
+  color: red;
+}
+</style>
+</head>
+<body>
+<p class="normal">This paragraph will be displayed normally .</p>
+<p class="warning">This paragraph will be red,  and in a large font-size indicating warning.</p> 
+</body>
+</html>
+
+
+  
+
+
+
+8. Class Selector Demo 2
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+p.hometown { 
+  background: yellow;
+}
+</style>
+</head>
+<body>
+<p>My name is Donald.</p>
+<p class="hometown">I live in Ducksburg.</p>
+<p>My name is Dolly.</p>
+<p class="hometown">I also live in Ducksburg.</p>
+</body>
+</html>
+  
+
+9. Generic Selectors 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+.really-big {
+  font-size: 600%;
+  }
+</style>
+</head>
+<body>
+<h1 class="really-big">This heading will be displayed really big </h1>
+<p class="really-big">This paragraph will be displayed really big </p> 
+</body>
+</html>
+  
+
+
+
+10. Id Selectors 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+#section3{font-size: 20};
+</style>
+</head>
+<body>
+<h2 id = "section3">  3. Properties for sale </h2> 
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+</body>
+</html>
+  
+
+
+
+11. Universal Selectors
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title> Simple Example of CSS universal selectors </title>
+<link rel='stylesheet' href='universalselectors.css' type='text/css'/>
+</head>
+<body>
+<h1>Example of CSS.</h1>
+<h2>Example of grouping of CSS universal selectors.</h2>
+<p>Grouping of CSS universal selectors.</p>
+</body>
+</html>
+
+
+universalselectors.css:
+* {
+color: blue;
+background: silver; 
+}
+  
+
+12. Pseudo classes
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head>
+        <title> Pseudo classes </title>
+        <style type = "text/css">
+                      input:hover {color: red;}
+                      input:focus {color: green;}
+            </style>
+  </head>
+  <body>
+    <form action = "">
+      <p>
+        Your name:
+        <input type = "text" /> 
+      </p>
+    </form>
+  </body>
+</html>
+  
+
+
+
+ASSIGNMENT-5
+1. Create an external style sheet for the chapters of this book.
+
+
+<html>
+<head>
+        <title>Index</title>
+        <link rel="stylesheet" href="style1.css"/>
+</head>
+<body style="background-color: #fbede0;">
+        <h1>Index of Computer Networking</h1>
+        <ul>
+                <li class="heading"> <h2> Chapter-1 </h2>
+                        <ul class="subheading">
+                                <li>Data Communication</li>
+                                <li>Network Models</li>
+                                <li>Physical Layer</li>
+                                <li>Digital Transmission</li>
+                                <li>Tramission Media</li>
+                        </ul>
+                </li>
+                <li class="heading"> <h2> Chapter-2 </h2>
+                        <ul class="subheading">
+                                <li>Data link Layer: Error detection and Correction</li>
+                                <li>Data Link Control</li>
+                                <li>Media Access Control </li>
+                                <li>Wired LANs</li>
+                        </ul>
+                </li>
+                <li class="heading"> <h2> Chapter-3 </h2>
+                        <ul class="subheading">
+                                <li>Network Layer</li>
+                                <li>Network Layer Protocols</li>
+                                <li>Unicast Routing</li>
+                        </ul>
+                </li>
+                <li class="heading"> <h2> Chapter-4 </h2>
+                        <ul class="subheading">
+                                <li>Transport Layer</li>
+                                <li>Transport Layer Protocols</li>
+                                <li>Transmission Control Protocol</li>
+                        </ul>
+                </li>
+                <li class="heading"> <h2> Chapter-5 </h2>
+                        <ul class="subheading">
+                                <li>Application Layer</li>
+                                <li>Network Security</li>
+                        </ul>
+                </li>
+        </ul>
+</body>
+</html>
+
+
+style1.css:
+h1{
+        font-family: "Arial";
+        font-size: 40px;
+        text-align:center;
+        font-weight:bold;
+        color: #247d7f;
+}
+.heading{
+        list-style-type: none;
+        font-family: "verdana";
+        font-size: 25px;
+        color: #f26b46;
+        font-weight:bold;
+}
+.subheading{
+        color: #84a59e;
+        list-style-type: square;
+        font-weight:bold;
+}
+  
+
+
+
+2. Create and test an XHTML document that displays a table of football scores from a collegiate football conference in which the team names have one of the primary colors of their respective schools. The winning scores must appear larger and in a different font than the losing scores. The team names must be in a script font.
+<html>
+<head>
+  <title>Collegiate Football Scores</title>
+  <style type="text/css">
+    table {
+      border: solid;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    .team-name {
+      font-family: "Lucida Handwriting";
+          font-size: 24px;
+    }
+    .winning-score {
+      font-size: 24px;
+      font-weight: bold;
+      font-family: "Times New Roman";
+      color: green;
+    }
+    .losing-score {
+      font-size: 18px;
+      font-family: "Arial";
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h1>Collegiate Football Conference Scores</h1>
+
+
+  <table>
+    <tr>
+      <th>Team</th>
+      <th>Score</th>
+      <th>Opponent</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td class="team-name" style="color: blue;">Team A</td>
+      <td class="winning-score">28</td>
+      <td class="team-name" style="color: purple;">Team B</td>
+      <td class="losing-score">14</td>
+    </tr>
+    <tr>
+      <td class="team-name" style="color: #0080FF;">Team C</td>
+      <td class="losing-score">17</td>
+      <td class="team-name" style="color: gray;">Team D</td>
+      <td class="winning-score">24</td>
+    </tr>
+    <tr>
+      <td class="team-name" style="color: #00FFFF;">Team E</td>
+      <td class="winning-score">25</td>
+      <td class="team-name" style="color: magenta;">Team F</td>
+      <td class="losing-score">16</td>
+    </tr>
+  </table>
+  <h1 style = "text-align:center">Congratulations!! Team A, Team D and Team E</h1>
+</body>
+</html>
+  
+
+
+
+3. Create and test an XHTML document that includes at least two images and enough text to precede the images, flow around them (one on the left and one on the right), and continue after the last image.
+
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Document with Images</title>
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    img.left {
+      max-width: 20%;
+      height: auto;
+      float: left;
+      margin: 10px;
+    }
+    img.right {
+      max-width: 20%;
+      height: auto;
+      float: right;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h1>Common Pet Animals</h1>
+
+
+  <p> 
+    Common pet animals are domesticated animals that are 
+    kept primarily for companionship, amusement, or other 
+    non-working purposes. They often play an integral role 
+    in the lives of their owners, providing companionship, 
+    emotional support, and sometimes even specific services. 
+    Here are some of the most common pet animals:
+  </p>
+
+
+  <img src="image1.jpg" alt="Image 1 Description" class="left" />
+  
+  <p>
+    <br/>
+    Dogs: Known as "man's best friend," dogs are one of the 
+    most popular pets worldwide. They come in various breeds, 
+    each with its own characteristics, sizes, and temperaments. 
+    Dogs are known for their loyalty, intelligence, and diverse 
+    abilities, making them suitable for various roles, including 
+    companionship, protection, and assistance.
+  </p>
+  
+  <img src="image2.jpg" alt="Image 2 Description" class="right" />
+
+
+  <p>
+    <br/>
+Cats: Cats are independent and low-maintenance pets that are known for their playful and affectionate nature. 
+They come in various breeds, each with its own unique 
+traits and characteristics. Cats are often chosen as pets 
+for their ability to adapt to indoor living and provide 
+companionship.
+  </p>
+</body>
+</html>
+
+
+  
+
+4. Create and test an XHTML document that has at least a half page of text and that has a small box of text embedded on the left margin, with the main text flowing around the small box. The embedded text must appear in a smaller font and also must be set in italics.
+
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Document with Embedded Box</title>
+
+
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .main-text {
+      margin-left: 150px; /* Adjust the margin as needed */
+    }
+    .embedded-box {
+      float: left;
+      width: 120px;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border: 1px solid #ddd;
+    }
+    .embedded-text {
+      font-size: 12px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h1>Indian culture</h1>
+
+
+  <div class="embedded-box">
+    <p class="embedded-text">
+      India is not, as people keep calling it, an underdeveloped 
+      country, but rather, in the context of its history 
+      and cultural heritage, a highly developed one in an 
+      advanced state of decay.    
+    </p>
+  </div>
+
+
+  <div class="main-text">
+    <p>
+      India enjoys a wide variety of cultural and traditional 
+      presence amongst the 28 states. Indian origin religions 
+      Hinduism, Jainism and Buddhism are all based on dharma 
+      and karma. Even, India is a blessed holy place which is 
+      also a native place for most of the religions. Recently, 
+      Muslim and Christianity also practised working amongst 
+      the whole India population. The pledge also added the 
+      line, ‘India is my country, and I am proud of its rich 
+      and varied heritage.’  
+    </p>
+
+
+    <p>
+      Indians are great with cooking; their spices are special 
+      for medicinal purposes, so visitors are difficult to 
+      adjust to with such heavy spices. The cricketers touring 
+      Indian pitches are out due to such food. Frequently, 
+      it's been observed that the sportsperson arrived in 
+      India either with cooking skills or with a cook. Spices 
+      such as cumin, turmeric and cardamom have been used for 
+      a long period, to make the dishes more delicious and 
+      nutritional. Wheat, rice and pulses help to complete 
+      the meal. The majority of the population is a vegetarian 
+      one due to their religious aspects.
+
+
+    </p>
+
+
+  </div>
+  <p>
+    Talking about the language, India is blessed with a wide 
+    range of languages used. Each state has its own language. 
+    A major part of the state is unable to speak other 
+    languages than the native one. Gujrathi, Malayalam, 
+    Marathi, Tamil, Punjabi, Telugu and many more are the 
+    representative languages of the respective state. 
+    It's easy to recognize the person with the language 
+    he spoke. There are 15 regional languages but almost 
+    all of them Hindi is the national language of the country. 
+    Sanskrit is considered an ancient and respected language. 
+    And most of the legendary holy texts are found in Sanskrit 
+    only. Along with these, most of the people are aware of 
+    plenty of foreign languages. 
+  </p>
+ </body>
+</html>
+  
+
+
+
+5. Create and test an XHTML document that has six short paragraphs of text that describe various aspects of the state in which you live. You must define three different paragraph styles, p1, p2, and p3. The p1 style must use left and right margins of 20 pixels, a background color of pink, and a foreground color of blue. The p2 style must use left and right margins of 30 pixels, a background color of black, and a foreground color of yellow. The p3 style must use a text-indent of 1 centimeter, a background color of green, and a foreground color of white. The first and fourth paragraphs must use p1, the second and fifth must use p2, and the third and sixth must use p3.
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>XHTML Document with Paragraph Styles</title>
+
+
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    p.p1 {
+      margin-left: 20px;
+      margin-right: 20px;
+      background-color: pink;
+      color: blue;
+      padding: 10px;
+    }
+    p.p2 {
+      margin-left: 30px;
+      margin-right: 30px;
+      background-color: black;
+      color: yellow;
+      padding: 10px;
+    }
+    p.p3 {
+      text-indent: 1cm;
+      background-color: green;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h1>Greatness of Telangana</h1>
+
+
+  <p class="p1">
+    Telangana, with its rich cultural heritage and vibrant history, stands as a symbol of diversity and progress. The state embraces a unique blend of tradition and modernity, making it a distinctive region in India. The great achievements of Telangana are reflected in its commitment to growth and development.
+  </p>
+
+
+  <p class="p2">
+    Known for its bustling urban centers and dynamic economy, Telangana is a beacon of innovation and technological advancement. The black soil of the Deccan Plateau has been the foundation for agricultural prosperity, contributing significantly to the state's economic growth. The golden fields of Telangana tell a story of agricultural excellence.
+  </p>
+
+
+  <p class="p3">
+    Steeped in the serenity of lush green landscapes, Telangana's natural beauty is unmatched. The state's commitment to environmental conservation and sustainable development is evident in its green initiatives. Telangana stands as a model for harmonizing human progress with nature's abundance.
+  </p>
+
+
+  <p class="p1">
+    The historical monuments and ancient temples scattered across Telangana narrate tales of the region's glorious past. The pink hues of heritage echo through every corner, showcasing the architectural marvels that have withstood the test of time. Telangana's cultural grandeur is a testament to its enduring legacy.
+  </p>
+
+
+  <p class="p2">
+    Telangana, with its warm and hospitable people, is a melting pot of diverse communities. The state's unity in diversity is a source of strength and resilience. The yellow fields of sunflowers that dot the countryside symbolize the optimism and vibrancy embedded in the spirit of Telangana.
+  </p>
+
+
+  <p class="p3">
+    In every corner of Telangana, the echoes of the region's folklore and traditions can be heard. The white sands of its numerous lakes and reservoirs reflect the purity and transparency that define the state's governance. Telangana's commitment to inclusivity and progress is a shining example for the nation.
+  </p>
+
+
+</body>
+</html>
+  
+
+
+
+6. Create and test an XHTML document that describes nested ordered lists of cars. The outer list must have three entries: compact, midsize, and sports. Inside each of these three lists there must be two sublists of body styles. The compact and midsize car sublists are two door and four-door; the sports car sublists are coupe and convertible. Each body-style sublist must have at least three entries, each of which is the make and model of a particular car that fits the category. The outer list must use uppercase Roman numerals, the middle lists must use uppercase letters, and the inner lists must use Arabic numerals. The background color for the compact car list must be pink; for the midsize car list it must be blue for the sports car list, it must be red. All of the styles must be in a document style sheet.
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Nested Ordered Lists of Cars</title>
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .outer-list {
+      list-style-type: upper-roman;
+    }
+    .compact {
+      background-color: pink;
+    }
+    .midsize {
+      background-color: blue;
+    }
+    .sports {
+      background-color: red;
+    }
+    .body-style {
+      list-style-type: upper-alpha;
+    }
+    .car-entry {
+      list-style-type: decimal;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nested Ordered Lists of Cars</h1>
+  <ol class="outer-list">
+    <li class="compact">Compact
+      <ol class="body-style">
+        <li class="body-style">Two-Door
+          <ol class="car-entry">
+            <li>Honda Civic</li>
+            <li>Ford Fiesta</li>
+            <li>Toyota Yaris</li>
+          </ol>
+        </li>
+        <li class="body-style">Four-Door
+          <ol class="car-entry">
+            <li>Toyota Corolla</li>
+            <li>Chevrolet Cruze</li>
+            <li>Nissan Sentra</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li class="midsize">Midsize
+      <ol class="body-style">
+        <li class="body-style">Two-Door
+          <ol class="car-entry">
+            <li>Honda Accord Coupe</li>
+            <li>Ford Mustang</li>
+            <li>Chevrolet Camaro</li>
+          </ol>
+        </li>
+        <li class="body-style">Four-Door
+          <ol class="car-entry">
+            <li>Toyota Camry</li>
+            <li>Nissan Altima</li>
+            <li>Hyundai Sonata</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li class="sports">Sports
+      <ol class="body-style">
+        <li class="body-style">Coupe
+          <ol class="car-entry">
+            <li>Porsche 911</li>
+            <li>Chevrolet Corvette</li>
+            <li>Audi R8</li>
+          </ol>
+        </li>
+        <li class="body-style">Convertible
+          <ol class="car-entry">
+            <li>Mazda MX-5 Miata</li>
+            <li>Ford Mustang Convertible</li>
+            <li>BMW Z4</li>
+          </ol></li> </ol> </li> </ol>
+</body>
+</html>
+  
+
+
+
+
+
+WEEK 7
+1. Properties
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+.a {
+  border: 1px solid red;
+  background-color: lightgrey;
+  padding: 10px;
+  width: 200px;
+}
+.b {
+  border: 1px solid blue;
+  background-color: lightblue;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+<h1 class="a">The display Property</h1>
+<h2 class="b">display</h2>
+<p class="a">
+This text displays the content as in class a 
+<p class="b">HELLO WORLD!</p> 
+This text displays the content as in class a 
+</p>
+</body>
+</html>
+  
+
+
+
+2. Properties 2
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+.a {
+  font-size: small;
+  border: 2px solid red; 
+  background-color: rgb(164, 220, 30);
+  padding: 25mm;
+  width: 200px;
+  height:10ex;
+  }
+.b {
+  border: 1px solid blue;
+  background-color: #B0E0E6;
+  padding: 10px;
+ }
+</style>
+</head>
+<body>
+<h1 class="a">The display Property</h1>
+<h2 class="b">display</h2>
+<p class="a">
+This text displays the content as in class a 
+<p class="b">HELLO WORLD!</p> 
+This text displays the content as in class a 
+</p>
+</body>
+</html>
+  
+
+
+
+3. Css font
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Font properties </title>
+    <style type = "text/css">
+      p.big {font-size: 14pt;
+             font-style: italic;
+             font-family: 'Times New Roman';
+            }
+      p.small {font: bold 10pt 'Courier New';} 
+      h2 {font-family: 'Times New Roman'; 
+          font-size: 24pt; font-weight: bold}
+      h3 {font-family: 'Courier New'; font-size: 18pt}
+       h4 {font: bolder 14pt Arial Helvetica}
+    </style>   
+  </head>
+  <body>
+    <p class = "big">
+      If a job is worth doing, it's worth doing right.
+    </p>
+    <p class = "small">
+      Two wrongs don't make a right, but they certainly
+      can get you in a lot of trouble.
+    </p>
+    <h2> Chapter 1 Introduction </h2>
+    <h3> 1.1 The Basics of Computer Networks </h3>
+    <h4> Cryptography and netowrk security  </h4>
+  </body>
+</html>
+If a job is worth doing, it's worth doing right.
+Two wrongs don't make a right, but they certainly can get you in a lot of trouble.
+Chapter 1 Introduction
+1.1 The Basics of Computer Networks
+Cryptography and netowrk security
+
+
+4. Css font 2
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+     An example to test external style sheets
+     -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> External style sheets </title>
+    
+    <link rel = "stylesheet"  type = "text/css"
+          href = "styles.css"/>
+  </head>
+  <body>
+    <p class = "big">
+      If a job is worth doing, it's worth doing right.
+    </p>
+    <p class = "small">
+      Two wrongs don't make a right, but they certainly
+      can get you in a lot of trouble.
+    </p>
+    <h2> Chapter 1 Introduction </h2>
+    <h3> 1.1 The Basics of Computer Networks </h3>
+  </body>
+</html>
+If a job is worth doing, it's worth doing right.
+Two wrongs don't make a right, but they certainly can get you in a lot of trouble.
+Chapter 1 Introduction
+1.1 The Basics of Computer Networks
+
+
+5. Decoration pro
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.1/EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+      <head> <title> Text decoration </title>
+ <style >
+p.under {
+  text-decoration: underline red;
+}
+p.over {
+  text-decoration: wavy overline lime;
+}
+p.line {
+  text-decoration: line-through;
+}
+p.plain {
+  text-decoration: none;
+}
+p.underover {
+  text-decoration: dashed underline overline;
+}
+p.thick {
+  text-decoration: solid underline purple 4px;
+}
+.blink {
+  text-decoration: blink;
+}
+</style>
+</head>
+<body>
+<p class="under">This text has a line underneath it.</p>
+<p class="over">This text has a line over it.</p>
+<p class="line">This text has a line going through it.</p>
+<p>This <a class="plain" href="">link will not be underlined</a>,
+    as links generally are by default. Be careful when removing
+    the text decoration on anchors since users often depend on
+    the underline to denote hyperlinks.</p>
+<p class="underover">This text has lines above <em>and</em> below it.</p>
+<p class="thick">This text has a really thick purple underline in supporting browsers.</p>
+<p class="blink">This text might blink for you,
+    depending on the browser you use.</p>
+</body>
+</html>
+This text has a line underneath it.
+This text has a line over it.
+This text has a line going through it.
+This link will not be underlined, as links generally are by default. Be careful when removing the text decoration on anchors since users often depend on the underline to denote hyperlinks.
+This text has lines above and below it.
+This text has a really thick purple underline in supporting browsers.
+This text might blink for you, depending on the browser you use.
+6. Css lists uo
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+ <head> <title> Sequence types </title></head>
+<body>
+<h3> Fruit </h3>
+ <ul>
+     <li style = "list-style-type: disc"> Apple </li>
+     <li style = "list-style-type: square"> Orange </li>
+     <li style = "list-style-type: circle"> Pear </li>
+ </ul>
+</body>
+</html>
+  
+
+7. Listing pro
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+ul {
+  list-style-image: url(pic.jpeg);
+}
+</style>
+</head>
+<body>
+<h1>The list-style-image Property</h1>
+<p>The list-style-image property replaces the list-item marker with an image:</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+</html>
+  
+
+  
+
+
+
+8. Css lists ol
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Sequence types </title>
+    <style type = "text/css">
+      ol {list-style-type: upper-roman;}
+      ol ol {list-style-type: upper-alpha;}
+      ol ol ol {list-style-type: decimal;}
+    </style>
+  </head>
+  <body>
+    <h3> Aircraft Types </h3>
+    <ol>
+      <li> General Aviation (piston-driven engines) 
+        <ol>
+          <li> Single-Engine Aircraft 
+            <ol>
+              <li> Tail wheel </li>
+              <li> Tricycle </li>
+            </ol>  </li> 
+          <li> Dual-Engine Aircraft 
+            <ol>
+              <li> Wing-mounted engines </li>
+              <li> Push-pull fuselage-mounted engines </li>
+            </ol> </li></ol>  </li>
+      <li> Commercial Aviation (jet engines) 
+        <ol>
+          <li> Dual-Engine 
+            <ol>
+              <li> Wing-mounted engines </li>
+              <li> Fuselage-mounted engines </li>
+            </ol> </li> 
+          <li> Tri-Engine 
+            <ol>
+              <li> Third engine in vertical stabilizer </li>
+              <li> Third engine in fuselage </li>
+            </ol></li> </ol> </li></ol>
+  </body>
+</html>
+Aircraft Types
+1. General Aviation (piston-driven engines)
+   1. Single-Engine Aircraft
+      1. Tail wheel
+      2. Tricycle
+   2. Dual-Engine Aircraft
+      1. Wing-mounted engines
+      2. Push-pull fuselage-mounted engines
+2. Commercial Aviation (jet engines)
+   1. Dual-Engine
+      1. Wing-mounted engines
+      2. Fuselage-mounted engines
+   2. Tri-Engine
+      1. Third engine in vertical stabilizer
+      2. Third engine in fuselage
+
+
+9. Color pro
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head> <title> Color </title>
+      <style type = "text/css">
+      body { background-color:grey;}
+      p.redback {color:blue; background-color:red;}
+    </style>
+  </head>
+  <body>
+    <h3> Background Colour </h3>
+    <p class = "redback"> Hello there! </p>
+    <p> some other text with default colour </p>
+  </body>
+</html>
+  
+
+
+
+10. Backgrounding
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> <title> Background images </title>
+        <style type = "text/css">
+      body {background-image: url(c172.jpg);
+            background-repeat: repeat;
+                     }
+    </style>
+  </head>
+  <body>
+    <h1>
+      A great holiday location 
+    </h1>
+  </body>
+</html>
+  
+
+
+
+11.  Float text
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head> <title> The float property </title>
+    <style type = "text/css">
+      img {float: right}
+    </style>
+  </head>
+  <body>
+    <p>
+      <img src = "Cessna aircraft.jpg" alt = "Cessna aircraft"/> 
+    </p>
+    <p>
+      This is a picture of a Cessna 210. The 210 is the flagship  single-engine Cessna aircraft. Although the 210 began as a four-place aircraft, it soon acquired a third row of seats,  stretching it to a six-place plane. The 210 is classified  as a high-performance airplane, which means its landing   gear is retractable and its engine has more than 200  horsepower. In its first model year, which was 1960,  the 210 was powered by a 260-horsepower fuel-injected six-cylinder engine that displaced 471 cubic inches.   The 210 is the fastest single-engine airplane ever  built by Cessna.
+    </p>
+  </body>
+</html>
+
+
+OUTPUT
+This is a picture of a Cessna 210. The 210 is the flagship single-engine Cessna aircraft. Although the 210 began as a four-place aircraft, it soon acquired a third row of seats, stretching it to a six-place plane. The 210 is classified as a high-performance airplane, which means its landing gear is retractable and its engine has more than 200 horsepower. In its first model year, which was 1960, the 210 was powered by a 260-horsepower fuel-injected six-cylinder engine that displaced 471 cubic inches. The 210 is the fastest single-engine airplane ever built by Cessna.
+  
+
+
+
+12. Span
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head><title> span tag </title>
+<style type = "text/css">
+  .bigred {font-size: 24pt; font-family: Ariel; color: red}
+</style>
+</head>
+<body>
+ <p> Now is the <span class = "bigred"> best time </span> ever! </p>
+</body>
+</html>
+Now is the best time ever!
+
+
+13. Div tag
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>The div element</h1>
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div>
+<p>This is some text outside the div element.</p>
+</body>
+</html>
+The div element
+This is a heading in a div element
+This is some text in a div element.
+This is some text outside the div element.
+14. Borders pro
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+  <head> <title> Table borders </title>
+   <style type = "text/css">
+     table {border-top-width: medium;
+           border-bottom-width: thick;
+           border-top-color: red;
+           border-bottom-color: blue;
+           border-top-style: dotted;
+           border-bottom-style: dashed;
+          }
+     p {border-style: dashed; border-width: thin;
+        border-color: green
+       }
+   </style>
+  </head>
+  <body>
+   <table border ="5">
+     <caption> Fruit Juice Drinks </caption>
+     <tr>
+       <th> </th>
+       <th> Apple </th>
+       <th> Orange </th>
+       <th> Screwdriver </th>
+     </tr>
+     <tr>
+       <th> Breakfast </th>
+       <td> 0 </td>
+       <td> 1 </td>
+       <td> 0 </td>
+     </tr>
+  <tr>
+    <th> Lunch </th>
+    <td> 1 </td>
+    <td> 0 </td>
+    <td> U </td>
+    </tr>
+    <tr>
+    <th> Dinner </th>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 1 </td>
+    </tr>
+   </table>
+   <p>
+    Now is the time for all good Web programmers to   learn to use style sheets.
+    learn to use style sheets.
+   </p>
+  </body>
+ </html>
+  
+
+15. Margin padding pro
+
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+ <head> <title> Margins and Padding </title>
+   <style type = "text/css">
+    p.one {
+margin: 0.2in;
+           padding: 0.2in;
+           background-color: #C0C0C0;
+           border-style: solid;}
+    p.two  {
+margin: 0.1in;
+           padding: 0.3in;
+           background-color: #C0C0C0;
+           border-style: solid;}
+    p.three{ 
+margin: 0.3in;
+           padding: 0.1in;
+           background-color: #C0C0C0;
+           border-style: solid;}
+   p.four {margin:0.4in;
+                 background-color:#C0C0C0;}
+   p.five {padding: 0.4in;
+                 background-color:#C0C0C0;}
+        </style>             }
+     </head>
+    <body>
+        <p>
+             Here is  the first line.
+        </p>
+        <p   class  = "one">
+             Now is the time for all good Web programmers to learn       to use style              sheets. <br />
+              [margin =  0.2in,
+             padding  =   0.2in]
+        </p>
+        <p class="two">
+             Now is        the time for              all good Web programmers
+             learn       to use style              sheets. <br />  [margin = 0.1in,
+             padding             0.3in]
+        </p>
+        <p class   = "three">
+             Now is the time for all good Web programmers to
+             learn to use style sheets. <br /> [margin = 0.13in,
+             padding = 0.1in]
+       </p>
+        <p class = "four">
+             Now is the time for all good Web programmers to
+             learn to use style sheets. <br /> [margin = 0.4in,
+             no padding, no border]
+        </p>
+        <p class = "five">
+             Now is the time for all good Web programmers to
+             learn to use style sheets. <br /> [padding = 0.4in
+             no margin, no border]
+        </p>
+        <p>
+        Here is the last line.
+        </p>
+    </body>
+</html>
+Here is the first line.
+Now is the time for all good Web programmers to learn to use style sheets.
+[margin = 0.2in, padding = 0.2in]
+Now is the time for all good Web programmers learn to use style sheets.
+[margin = 0.1in, padding 0.3in]
+Now is the time for all good Web programmers to learn to use style sheets.
+[margin = 0.13in, padding = 0.1in]
+Now is the time for all good Web programmers to learn to use style sheets.
+[margin = 0.4in, no padding, no border]
+Now is the time for all good Web programmers to learn to use style sheets.
+[padding = 0.4in no margin, no border]
+Here is the last line.
+
+
+ASSIGNMENT-6
+7.Rewrite the document of Q6 to put all style-sheet information in an external style sheet. Validate your external style sheet with the W3C CSS validation service.
+
+
+styles.css:
+body {
+  font-family: Arial, sans-serif;
+}
+.outer-list {
+  list-style-type: upper-roman;
+}
+.compact {
+  background-color: pink;
+}
+.midsize {
+  background-color: blue;
+}
+.sports {
+  background-color: red;
+}
+.body-style {
+  list-style-type: upper-alpha;
+}
+.car-entry {
+  list-style-type: decimal;
+}
+
+
+7.html
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Nested Ordered Lists of Cars</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <h1>Nested Ordered Lists of Cars</h1>
+  <ol class="outer-list">
+    <li class="compact">Compact
+      <ol class="body-style">
+        <li class="body-style">Two-Door
+          <ol class="car-entry">
+            <li>Honda Civic</li>
+            <li>Ford Fiesta</li>
+            <li>Toyota Yaris</li>
+          </ol>
+        </li>
+        <li class="body-style">Four-Door
+          <ol class="car-entry">
+            <li>Toyota Corolla</li>
+            <li>Chevrolet Cruze</li>
+            <li>Nissan Sentra</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li class="midsize">Midsize
+      <ol class="body-style">
+        <li class="body-style">Two-Door
+          <ol class="car-entry">
+            <li>Honda Accord Coupe</li>
+            <li>Ford Mustang</li>
+            <li>Chevrolet Camaro</li>
+          </ol>
+        </li>
+        <li class="body-style">Four-Door
+          <ol class="car-entry">
+            <li>Toyota Camry</li>
+            <li>Nissan Altima</li>
+            <li>Hyundai Sonata</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li class="sports">Sports
+      <ol class="body-style">
+        <li class="body-style">Coupe
+          <ol class="car-entry">
+            <li>Porsche 911</li>
+            <li>Chevrolet Corvette</li>
+            <li>Audi R8</li>
+          </ol>
+        </li>
+        <li class="body-style">Convertible
+          <ol class="car-entry">
+            <li>Mazda MX-5 Miata</li>
+            <li>Ford Mustang Convertible</li>
+            <li>BMW Z4</li>
+          </ol></li></ol> </li></ol>
+</body>
+</html>
+  
+
+
+
+8.Rewrite the document of Q6 to use inline style sheets only.
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Nested Ordered Lists of Cars</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+  <h1>Nested Ordered Lists of Cars</h1>
+  <ol style="list-style-type: upper-roman;">
+    <li style="background-color: pink;">Compact
+      <ol style="list-style-type: upper-alpha;">
+        <li style="list-style-type: decimal;">Two-Door
+          <ol style="list-style-type: decimal;">
+            <li>Honda Civic</li>
+            <li>Ford Fiesta</li>
+            <li>Toyota Yaris</li>
+          </ol>
+        </li>
+        <li style="list-style-type: decimal;">Four-Door
+          <ol style="list-style-type: decimal;">
+            <li>Toyota Corolla</li>
+            <li>Chevrolet Cruze</li>
+            <li>Nissan Sentra</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li style="background-color: blue;">Midsize
+      <ol style="list-style-type: upper-alpha;">
+        <li style="list-style-type: decimal;">Two-Door
+          <ol style="list-style-type: decimal;">
+            <li>Honda Accord Coupe</li>
+            <li>Ford Mustang</li>
+            <li>Chevrolet Camaro</li>
+          </ol>
+        </li>
+        <li style="list-style-type: decimal;">Four-Door
+          <ol style="list-style-type: decimal;">
+            <li>Toyota Camry</li>
+            <li>Nissan Altima</li>
+            <li>Hyundai Sonata</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li style="background-color: red;">Sports
+      <ol style="list-style-type: upper-alpha;">
+        <li style="list-style-type: decimal;">Coupe
+          <ol style="list-style-type: decimal;">
+            <li>Porsche 911</li>
+            <li>Chevrolet Corvette</li>
+            <li>Audi R8</li>
+          </ol>
+        </li>
+        <li style="list-style-type: decimal;">Convertible
+          <ol style="list-style-type: decimal;">
+            <li>Mazda MX-5 Miata</li>
+            <li>Ford Mustang Convertible</li>
+            <li>BMW Z4</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</body>
+</html>
+  
+
+
+
+9.Create and test an XHTML document that contains at least five lines of text from a newspaper story. Every verb in the text must be green, every noun must be blue, and every preposition must be yellow.
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Newspaper Story</title>
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .verb {
+      color: green;
+    }
+    .noun {
+      color: blue;
+    }
+    .preposition {
+      color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <p>
+    <span class="noun">The cat</span> <span class="verb">jumped</span>
+    <span class="preposition">over</span> <span class="noun">the fence</span>.
+  </p>
+  <p>
+    <span class="noun">A dog</span> <span class="verb">barked</span>
+    <span class="preposition">near</span> <span class="noun">the park</span>.
+  </p>
+  <p>
+    <span class="noun">The sun</span> <span class="verb">shone</span>
+    <span class="preposition">above</span> <span class="noun">the mountains</span>.
+  </p>
+  <p>
+    <span class="noun">People</span> <span class="verb">gathered</span>
+    <span class="preposition">around</span> <span class="noun">the monument</span>.
+  </p>
+  <p>
+    <span class="noun">The car</span> <span class="verb">drove</span>
+    <span class="preposition">through</span> <span class="noun">the city</span>.
+  </p>
+</body>
+</html>
+  
+
+
+
+10.Create and test an XHTML document that describes an unordered list of at least five popular books. The bullet for each book must be a small image of the hook's cover. Find the images on the Web.
+
+
+<html>
+<head>
+<title>Popular Books</title>
+<style type="text/css">
+    ul {
+        list-style-type: none;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+    }
+</style>
+</head>
+<body>
+<h1>Popular Books</h1>
+<ul>
+    <li><img src="C:\Users\ADMIN\Desktop\91YmhPEzlaL._AC_UF1000,1000_QL80_.jpg" alt="Pride and Prejudice"/> Pride and Prejudice by Jane Austen</li>
+    <li><img src="C:\Users\ADMIN\Desktop\71VjmMcE-rL._AC_UF894,1000_QL80_.jpg" alt="The Lord of the Rings"/> The Lord of the Rings by J.R.R. Tolkien</li>
+    <li><img src="C:\Users\ADMIN\Desktop\harry-potter-and-the-philosophers-stone-by-j-k-rowling-paperback-original-imaggzg7en2jzc4y.webp" alt="Harry Potter and the Philosopher's Stone"/> Harry Potter and the Philosopher's Stone by J.K. Rowling</li>
+    <li><img src="C:\Users\ADMIN\Desktop\passage.png" alt="The Hitchhiker's Guide to the Galaxy"/> The Passage To India E. M. Forster</li>
+    <li><img src="C:\Users\ADMIN\Desktop\41j-s9fHJcL.jpg" alt="To Kill a Mockingbird"/> To Kill a Mockingbird by Harper Lee</li>
+</ul>
+</body>
+</html>
+  
+
+
+
+11.Modify the XHTML document, nestedlists.xhtml in chap2 to make the different levels of lists different colors using a document style sheet.
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Nested lists</title>
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h3 {
+      color: #0066cc; /* Blue for heading */
+    }
+    ol {
+      color: #333; /* Dark gray for first-level list */
+    }
+    ol ol {
+      color: #990000; /* Red for second-level list */
+    }
+    ol ol ol {
+      color: #009900; /* Green for third-level list */
+    }
+    ol ol ol ol {
+      color: #663399; /* Purple for fourth-level list */
+    }
+  </style>
+</head>
+<body>
+  <h3>Aircraft Types</h3>
+  <ol>
+    <li>General Aviation (piston-driven engines)
+      <ol>
+        <li>Single-Engine Aircraft
+          <ol>
+            <li>Tail wheel</li>
+            <li>Tricycle</li>
+          </ol>
+        </li>
+        <li>Dual-Engine Aircraft
+          <ol>
+            <li>Wing-mounted engines</li>
+            <li>Push-pull fuselage-mounted engines</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li>Commercial Aviation (jet engines)
+      <ol>
+        <li>Dual-Engine
+          <ol>
+            <li>Wing-mounted engines</li>
+            <li>Fuselage-mounted engines</li>
+          </ol>
+        </li>
+        <li>Tri-Engine
+          <ol>
+            <li>Third engine in vertical stabilizer</li>
+            <li>Third engine in fuselage</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</body>
+</html>
+  
+
+
+
+12.Using a document style sheet, modify the XHTML document, definitionlists.xhtml in chap2 to set the font in the dt elements to Courier 12 point font and the dd elements to Times Roman 14 point italic font.
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Definition lists</title>
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h3 {
+      color: #0066cc; /* Blue for heading */
+    }
+    dl {
+      margin: 0;
+      padding: 0;
+    }
+    dt {
+      font-family: Courier, monospace;
+      font-size: 12pt;
+      font-weight: bold;
+    }
+    dd {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 14pt;
+      font-style: italic;
+      margin-left: 20px; /* Indentation for better readability */
+    }
+  </style>
+</head>
+<body>
+  <h3>Full Forms</h3>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+    <dt>JS</dt>
+    <dd>JavaScript</dd>
+  </dl>
+</body>
+</html>
