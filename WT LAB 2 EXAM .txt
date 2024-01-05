@@ -1,0 +1,4853 @@
+﻿WEEK - 8
+
+
+1. welcomejs.html
+<html>
+<head>
+<title>JavaScript and the Script Tag</title>
+</head>
+<body>
+<h1>Ready start</h1>
+<script  type="text/javascript">
+ var a=4,b=5,c=7;
+     document.writeln("Welcome to Java Script");
+</script>
+</body>
+</html>
+  
+
+2. alertjs.html
+<html>
+<head>
+<title>JavaScript and the Script Tag</title>
+</head>
+<body>
+<h1>Ready start</h1>
+<script type="text/javascript">
+      alert("First Script Ran");
+</script>
+<h2>Running...</h2>
+<script type="text/javascript">
+      alert("Second Script Ran");
+</script>
+<h2>Keep running</h2>
+<script type="text/javascript">
+      alert("Third Script Ran");
+</script>
+<h1>Stop!</h1>
+</body>
+</html>
+  
+      
+
+
+3. promptjs.html
+<html>
+  <head>
+    <title> Real roots of a quadratic equation </title>
+   </head>
+  <body>
+    <script type = "text/javascript">
+      var a = prompt("What is the value of 'a'? \n", "");
+      var b = prompt("What is the value of 'b'? \n", "");
+      var c = prompt("What is the value of 'c'? \n", "");
+      var A = parseInt(a);
+      var B = parseInt(b);
+      var C = parseInt(c);  
+     var root_part = Math.sqrt(B * B - 4.0 * A * C);
+      var denom = 2.0 * A;
+      var root1 = (-B + root_part) / denom; 
+      var root2 = (-B - root_part) / denom;
+      document.write("The first root is: ",  root1, "<br>");
+      document.write("The second root is: ",   root2, "<br>"); 
+    </script>
+  </body>
+</html>                                                                                                                              
+
+
+a=3,b=12,c=4
+  
+   
+
+
+
+
+4. ifjs.html
+<html>
+<head>
+<title> if statement biggest of two numbers </title>
+</head>
+<body>
+<script type = "text/javascript">
+      var x = prompt("What is the value of 'a'? \n", "");
+      var y = prompt("What is the value of 'b'? \n", "");
+      var a = parseInt(x);
+      var b = parseInt(y);
+      if (a > b) 
+         document.write("a is greater than b <br>");
+      else 
+    {
+          a = b;
+          document.write("a was not greater than b, now they are equal <br>");
+    }
+</script>
+</body>
+</html>
+
+
+a=20,b=10
+  
+
+  
+
+
+
+5. switchjs.html
+<html>
+  <head> <title> A switch statement </title>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+  </head>
+  <body>
+    <script type = "text/javascript">
+      var bordersize;
+      bordersize = prompt("Select a table border size \n" +
+                          "0 (no border)," +
+                          "1 (1 pixel border), " +
+                          "4 (4 pixel border), "+
+                          "8 (8 pixel border)");
+      switch (bordersize) {
+        case "0": document.write("<table>");
+                  break;
+        case "1": document.write("<table border = '1'>");
+                  break;
+        case "4": document.write("<table border = '4'>");
+                  break;
+        case "8": document.write("<table border = '8'>");
+                  break;
+        default:  document.write("Error - invalid choice: ", 
+                                 bordersize, "<br>");
+      }
+document.write("<caption> 2003 NFL Divisional",
+                     " Winners </caption>");
+      document.write("<tr>",
+                     "<th />",
+                     "<th> American Conference </th>",
+                     "<th> National Conference </th>",
+                     "</tr>",
+                     "<tr>",
+                     "<th> East </th>",
+                     "<td> New England Patriots </td>",
+                     "<td> Philadelphia Eagles </td>",
+                     "</tr>",
+                     "<tr>",
+                     "<th> North </th>",
+                     "<td> Baltimore Ravens </td>",
+                     "<td> Green Bay Packers </td>",
+                     "</tr>",
+                     "<tr>",
+                     "<th> West </th>",
+                     "<td> Kansas City Chiefs </td>",
+                     "<td> St. Louis Rams </td>",
+                     "</tr>",
+                     "<tr>",
+                     "<th> South </th>",
+                     "<td> Indianapolis Colts </td>",
+                     "<td> Carolina Panthers </td>",
+                     "</tr>",
+                     "</table>");
+    </script>
+  </body>
+</html>
+  
+  
+
+
+
+6. forjs.html
+<html>
+  <head>
+    <title>Illustrates Date</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Get the current date
+      var today = new Date();
+      // Fetch the various parts of the date
+      var dateString = today.toLocaleString();
+      var day = today.getDay();
+      var month = today.getMonth();
+      var year = today.getFullYear();
+      var timeMilliseconds = today.getTime();
+      var hour = today.getHours();
+      var minute = today.getMinutes();
+      var second = today.getSeconds();
+      var millisecond = today.getMilliseconds();
+      document.write(
+        "Date: " + dateString + "<br>",
+        "Day: " + day + "<br>",
+        "Month: " + month + "<br>",
+        "Year: " + year + "<br />",
+        "Time in milliseconds: " + timeMilliseconds + "<br>",
+        "Hour: " + hour + "<br>",
+        "Minute: " + minute + "<br>",
+        "Second: " + second + "<br>",
+        "Millisecond: " + millisecond + "<br>"
+      );
+      var dum1 = 1.00149265,
+        product = 1;
+      var start = new Date();
+      for (var count = 0; count < 100000; count++)
+        product = product + (1.000002 * dum1) / 1.00001;
+      var end = new Date();
+      var diff = end.getTime() - start.getTime();
+      document.write("<br>The loop took " + diff + " milliseconds <br>");
+    </script>
+  </body>
+</html>
+  
+
+
+
+7. arrayjs.html 
+<html>
+  <head>
+    <title>Name list</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var name_list = new Array("ALI", "BHARATH", "KIRAN");
+      var new_name, index, last;
+      while ((new_name = prompt("Please type a new name", ""))) {
+        last = name_list.length - 1;
+        while (last >= 0 && name_list[last] > new_name) {
+          name_list[last + 1] = name_list[last];
+          last--;
+        }
+        name_list[last + 1] = new_name;
+        document.write("<p><b>The new name list is:</b> ", "<br>");
+        for (index = 0; index < name_list.length; index++)
+          document.write(name_list[index], "<br>");
+        document.write("</p>");
+      }
+    </script>
+  </body>
+</html>
+  
+     
+
+
+8. parametersjs.html
+<html>
+  <head> <title> Parameters </title>
+    <script type = "text/javascript">
+              function params(a, b) {
+                document.write("Function params was passed ",
+                    arguments.length, " parameter(s) <br>");
+                document.write("Parameter values are: <br>");
+                for (var arg = 0; arg < arguments.length; arg++)
+                  document.write(arguments[arg], "<br>");
+                document.write("<br>");
+                }
+            </script>
+   </head>
+   <body>
+         <script type = "text/javascript">
+              params("Mozart");
+              params("Mozart", "Beethoven");
+              params("Mozart", "Beethoven", "Tchaikowsky");
+         </script>
+    </body>
+</html>
+  
+
+9. sortjs.html  
+<html>
+<head>
+<title>An example illustrate sorting of numbers</title>
+<script  type="text/javascript">
+var num_list=[4,2,7,6,8,9,3,1,5];
+function num_order(a, b) {return b-a;}
+</script>
+</head>
+<body>
+<script  type="text/javascript">
+num_list.sort(num_order);
+document.write("array in sorted order is :");
+for(var i=0;i<num_list.length;i++)
+document.write(num_list[i]);
+</script>
+</body>
+</html>         
+  
+
+
+
+
+
+
+
+10. patternjs.html
+<html>
+  <head>
+    <title>Pattern Matching</title>
+    <script type="text/javascript">
+           function tst_phone_num(num) {
+              var ok = num.search(/\d{3}-\d{4}/);
+        if (ok == 0) return true;
+        else return false;
+      }    
+</script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var tst = tst_phone_num("444-5432");
+      if (tst) document.write("444-5432 is a legal phone number <br />");
+      else document.write("Error in tst phone num <br />");
+      tst = tst_phone_num("444-r432");
+      if (tst) document.write("Program error <br />");
+      else document.write("444-r432 is not a legal phone number <br />");
+      tst = tst_phone_num("44-6432");
+      if (tst) document.write("Program error <br />");
+      else document.write("44-6432 is not a legal phone number <br />");
+    </script>
+  </body>
+</html>
+  
+
+
+
+
+
+________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment 8
+
+
+1)Output: A table of the numbers from 5 to 15 and their squares and cubes, using alert.
+<html>
+<head>
+    <title>Number Table</title>
+</head>
+<body>
+<script>
+  function square(number) {
+    return number * number;
+  }
+  function cube(number) {
+    return number * number * number;
+  }
+  let table = "Number | Square | Cube\n";
+  for (let i = 5; i <= 15; i++) {
+    table += `${i} | ${square(i)} | ${cube(i)}\n`;
+  }
+  alert(table);
+</script>
+</body>
+</html>
+  
+
+
+
+2)Output: The first 20 Fibonacci numbers, which are defined as in the following sequence  1, 1, 2, 3, ......where each number in the sequence after the second is the sum of the two previous numbers. You must use document .write to produce the output. 
+<html>
+<head>
+    <title>Fibonacci Numbers</title>
+    <script>
+        function generateFibonacci(n) {
+            let fibNumbers = [1, 1];
+
+
+            for (let i = 2; i < n; i++) {
+                fibNumbers[i] = fibNumbers[i - 1] + fibNumbers[i - 2];
+            }
+
+
+            return fibNumbers;
+        }
+    </script>
+</head>
+<body>
+    <h2>First 20 Fibannoci Series</h2>
+    <script>
+        let fibonacciNumbers = generateFibonacci(20);
+        for (let i = 0; i < fibonacciNumbers.length; i++) {
+            document.write(`${fibonacciNumbers[i]} `);
+        }
+    </script>
+</body>
+</html>
+
+
+  
+
+3)Input: Three numbers, using prompt to get each. 
+Output: The largest of the three input numbers. 
+Hint: Use the predefined function Math . max. 
+<html>
+  <head>
+    <title>Largest of Three Numbers</title>
+  </head>
+  <body>
+    <script>
+      var a = prompt("What is the value of 'a'? \n", "");
+      var b = prompt("What is the value of 'b'? \n", "");
+      var c = prompt("What is the value of 'c'? \n", "");
+      var A = parseInt(a);
+      var B = parseInt(b);
+      var C = parseInt(c);
+      if (isNaN(A) || isNaN(B) || isNaN(C)) 
+          {
+        document.write("<p>Invalid input. Please enter valid numbers.</p>");
+      } 
+          else 
+          {
+        var largestNumber = Math.max(A, B, C);
+        document.write("<h2>Largest of Three Numbers:</h2>");
+        document.write(`<p>The largest number is: ${largestNumber}</p>`);
+      }
+    </script>
+  </body>
+</html>
+  
+  
+
+
+
+
+
+4)Modify the script of Exercise 4.2 to input a number, n, using prompt, which is the number of the Fibonacci number required as output. 
+<html>
+  <head>
+    <title>Fibonacci Number</title>
+    <script>
+      function generateFibonacci(n) {
+        let fibonacciNumbers = [1, 1];
+        for (let i = 2; i < n; i++) {
+          fibonacciNumbers[i] =
+            fibonacciNumbers[i - 1] + fibonacciNumbers[i - 2];
+        }
+        return fibonacciNumbers[n - 1];
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      let n = parseInt(prompt("Enter the value of 'n' for the Fibonacci number:"));
+      if (isNaN(n) || n <= 0) {
+        document.write(
+          "<p>Invalid input. Please enter a valid positive number.</p>"
+        );
+      } else {
+        let fibonacciNumber = generateFibonacci(n);
+        document.write(`<h2>${n}-th Fibonacci Number:</h2>`);
+        document.write(`<p>The Fibonacci number is: ${fibonacciNumber}</p>`);
+      }
+    </script>
+  </body>
+</html>
+  
+                    
+
+
+5)Input: A text string, using prompt. 
+Output: Either "Legal name" or "Illegal name", depending on whether the input names fit the required format, which is Last name, first name, middle initial where neither of the names can have more than 15 characters.
+<html>
+<head>
+    <title>Name Validation</title>
+    <script>
+        function isLegalName(name) {
+            var names = name.split(',');
+            for (var i = 0; i < names.length; i++) {
+                names[i] = names[i].trim();
+            }
+
+
+            if (names.length === 3 && names[0].length === 1 && names[1].length === 1 && names[2].length === 1) {
+                if (names[0].length <= 15 && names[1].length <= 15) {
+                    return true; 
+                }
+            }
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        var inputName = prompt("Enter a name in the format Last name, First name, Middle initial:");
+
+
+        if (inputName) {
+            if (isLegalName(inputName)) {
+                alert("Legal name");
+            } else {
+                alert("Illegal name");
+            }
+        } else {
+            alert("Invalid input. Please enter a valid name.");
+        }
+    </script>
+</body>
+</html>
+  
+  
+
+ 
+6)Input: A line of text, using prompt. 
+Output: The words of the input text, in alphabetical order.
+<html lang="en">
+<head>
+    <title>Alphabetical Order</title>
+</head>
+<body>
+<script>
+  let inputText = prompt("Enter a line of text:");
+  let words = inputText.split(/\s+/);
+  for (let i = 0; i < words.length; i++) {
+    words[i] = words[i].trim();
+  }
+  words.sort();
+  document.write("<h2>Words in Alphabetical Order:</h2>");
+  document.write("<p>");
+  for (let i = 0; i < words.length; i++) {
+    document.write(words[i]);
+    if (i < words.length - 1) {
+      document.write(", ");
+    }
+  }
+  document.write("</p>");
+</script>
+</body>
+</html>
+  
+  
+
+
+
+7)Modify the script for Exercise 4.6 to get a second input from the user, which is either  "ascending" or "descending". Use this input to determine how to sort the input words.
+<html lang="en">
+  <head>
+    <title>Alphabetical Order</title>
+  </head>
+  <body>
+    <script>
+      let inputText = prompt("Enter a line of text:");
+      let words = inputText.split(/\s+/);
+      for (let i = 0; i < words.length; i++) {
+        words[i] = words[i].trim();
+      }
+      let sortingOrder = prompt(
+        "Enter 'ascending' or 'descending' for sorting order:"
+      );
+      if (sortingOrder === "ascending") {
+        words.sort();
+      } else if (sortingOrder === "descending") {
+        words.sort(function (a, b) {
+          return b.localeCompare(a);
+        });
+      } 
+      document.write("<h2>Words in Alphabetical Order:</h2>");
+      document.write("<p>");
+      for (let i = 0; i < words.length; i++) {
+        document.write(words[i]);
+        if (i < words.length - 1) {
+          document.write(", ");
+        }
+      }
+      document.write("</p>");
+    </script>
+  </body>
+</html>
+  
+  
+  
+
+
+
+8)Function: no zeros 
+Parameter: An array of numbers. 
+Result: The given array must be modified to remove all zero values. 
+Returns: true if the given array included zero values; false otherwise. 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zero Check and Removal</title>
+  <script>
+    function checkAndRemoveZeros() {
+      let inputArray = prompt("Enter numbers separated by commas to create an array:").split(',').map(Number);
+      let hasZeros = inputArray.some(num => num === 0);
+      let filteredArray = inputArray.filter(num => num !== 0);
+      document.getElementById('originalArray').innerHTML = "Original Array: " + inputArray;
+      document.getElementById('containsZeros').innerHTML = "Array contains zeros: " + hasZeros;
+      document.getElementById('modifiedArray').innerHTML = "Array after removing zeros: " + filteredArray;
+      return hasZeros;
+    }
+  </script>
+</head>
+<body>
+  <button onclick="checkAndRemoveZeros()">Check and Remove Zeros</button>
+  <p id="originalArray"></p>
+  <p id="containsZeros"></p>
+  <p id="modifiedArray"></p>
+</body>
+</html>
+  
+  
+
+
+
+9)Function: e names 
+Parameter: An array of names, represented as strings. 
+Returns: The number of names in the given array that end in either “ie" or “y” 
+<html>
+<head>
+  <title>E Names Function</title>
+  <script>
+    function eNamesCount(names) {
+      let filteredNames = names.filter(name => name.toLowerCase().endsWith('ie') || name.toLowerCase().endsWith('y'));
+      return filteredNames.length;
+    }
+  </script>
+</head>
+<body>
+  <script>
+    let inputNames = ["Sophie", "Charlie", "Emily", "Lily", "Jackie", "Oliver", "Henry", "Zoe"];
+    let countResult = eNamesCount(inputNames);
+    document.write("<p>Input names: " + inputNames.join(', ') + "</p>");
+    document.write("<p>Number of names ending in 'ie' or 'y': " + countResult + "</p>");
+  </script>
+</body>
+</html>
+  
+
+
+
+10) Function: first vowel 
+Parameter: A string. 
+Returns: The position in the string of the leftmost vowel. 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First Vowel Position</title>
+  <script>
+    function firstVowelPosition(inputString) {
+      let lowercaseString = inputString.toLowerCase();
+      let vowels = ['a', 'e', 'i', 'o', 'u'];
+      for (let i = 0; i < lowercaseString.length; i++) {
+        if (vowels.includes(lowercaseString[i])) {
+          document.write("<p>The position of the leftmost vowel is: " + (i + 1) + "</p>");
+          return;
+        }
+      }
+      document.write("<p>No vowels found in the string</p>");
+    }
+  </script>
+</head>
+<body>
+  <script>
+    let userInput = prompt("Enter a string:");
+    firstVowelPosition(userInput);
+  </script>
+</body>
+</html>
+  
+
+
+
+ 11)  Function: counter 
+Parameter: An array of numbers. 
+Returns: The numbers of negative elements, zeros, and values greater   than zero in  the given array. 
+Note: You must use a switch statement in the function.
+<html>
+<head>
+  <title>Number Counter</title>
+  <script>
+    function counter(numbers) {
+      let counts = {
+        negative: 0,
+        zero: 0,
+        greaterThanZero: 0
+      };
+      for (let i = 0; i < numbers.length; i++) {
+        switch (true) {
+          case numbers[i] < 0:
+            counts.negative++;
+            break;
+          case numbers[i] === 0:
+            counts.zero++;
+            break;
+          case numbers[i] > 0:
+            counts.greaterThanZero++;
+            break;
+          default:
+            break;
+        }
+      }
+      document.write("<p>Number of negative elements: " + counts.negative + "</p>");
+      document.write("<p>Number of zeros: " + counts.zero + "</p>");
+      document.write("<p>Number of values greater than zero: " + counts.greaterThanZero + "</p>");
+    }
+  </script>
+</head>
+<body>
+  <script>
+    // Example usage:
+    let inputArray = [-3, 0, 5, 10, -7, 0];
+    counter(inputArray);
+  </script>
+</body>
+</html>
+  
+
+
+
+12) Function: t st_name 
+Parameter: A string. 
+Returns: true if the given string has the form string1, string2 letter where both strings must be all lowercase letters except the     first letter, and letter must be uppercase; false otherwise. 
+
+
+<html>
+<head>
+  <title>String Pattern Checker</title>
+  <script>
+    function t_st_name(s) {
+      if (s.length < 3) {
+        return false;
+      }
+      const stringParts = s.split(' ');
+      if (stringParts.length !== 3) {
+        return false;
+      }
+      const [string1, string2, letter] = stringParts;
+      if (string1.length < 2 || string2.length < 2) {
+        return false;
+      }
+      if (string1[0] !== string1[0].toLowerCase() || string2[0] !== string2[0].toLowerCase() || letter !== letter.toUpperCase()) {
+        return false;
+      }
+      if (string1.slice(1) !== string1.slice(1).toLowerCase() || string2.slice(1) !== string2.slice(1).toLowerCase()) {
+        return false;
+      }
+      return true;
+    }
+    function checkString() {
+      const inputString = prompt("Enter a string in the format 'string1 string2 letter':");
+      if (inputString !== null) {
+        const result = t_st_name(inputString);
+        if (result) {
+          alert("The string follows the pattern.");
+        } else {
+          alert("The string does not follow the pattern.");
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>String Pattern Checker</h2>
+  <button onclick="checkString()">Check Pattern</button>
+</body>
+</html>
+
+
+  
+  
+
+
+
+13) Function: row averages 
+Parameter: An array of arrays of numbers. 
+Returns: An array of the averages of each of the rows of the given matrix. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Row Averages</title>
+  <script>
+    function rowAverages(matrix) {
+      if (matrix.length === 0 || matrix[0].length === 0) {
+        console.error("Error: Empty matrix provided.");
+        return [];
+      }
+      let averages = [];
+      for (let i = 0; i < matrix.length; i++) {
+        let row = matrix[i];
+        let sum = row.reduce((acc, num) => acc + num, 0);
+        averages.push(sum / row.length);
+      }
+      return averages;
+    }
+    function displayRowAverages(matrix) {
+      let result = rowAverages(matrix);
+      document.write("<p>Row Averages: " + result.join(', ') + "</p>");
+    }
+    function parseMatrixInput(input) {
+      let matrix = [];
+      if (input.startsWith("[[") && input.endsWith("]]")) {
+        input = input.slice(2, -2);
+        let rows = input.split("],[");
+        for (let i = 0; i < rows.length; i++) {
+          let row = rows[i].split(",").map(Number);
+          matrix.push(row);
+        }
+      } else {
+        console.error("Error: Invalid matrix input format.");
+      }
+      return matrix;
+    }
+    function getInputMatrix() {
+      let userInput = prompt("Enter the matrix (e.g., [[1, 2, 3], [4, 5, 6], [7, 8, 9]]):");
+      let matrix = parseMatrixInput(userInput);
+      return matrix;
+    }
+  </script>
+</head>
+<body>
+  <script>
+    let inputMatrix = getInputMatrix();
+    displayRowAverages(inputMatrix);
+  </script>
+</body>
+</html>
+  
+  
+
+
+
+14) Function: reverser 
+Parameter: A number. 
+Returns: The number with its digits in reverse order.
+<html>
+  <head>
+    <title>Reverser Function</title>
+  </head>
+  <body>
+    <script>
+      function reverser(number) {
+        let reversedNumber = 0;
+        while (number > 0) {
+          let digit = number % 10;
+          reversedNumber = reversedNumber * 10 + digit;
+          number = Math.floor(number / 10);
+        }
+        return reversedNumber;
+      }
+      let inputNumber = prompt("Enter a number:");
+      inputNumber = parseInt(inputNumber);
+
+
+      if (isNaN(inputNumber)) {
+        document.write("<p>Invalid input. Please enter a valid number.</p>");
+      } else {
+        let reversedResult = reverser(inputNumber);
+        document.write("<p>Input number: " + inputNumber + "</p>");
+        document.write("<p>Reversed number: " + reversedResult + "</p>");
+      }
+    </script>
+  </body>
+</html>
+  
+  
+
+
+
+
+
+________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  WEEK 9 
+
+
+1)loadjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> onLoad event handler </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+    <script type = "text/javascript">
+      function load_greeting () {
+        alert("You are visiting the home page of \n" +
+              "Pete's Pickled Peppers \n" +
+              "WELCOME!!!");
+      }
+    </script>
+  </head>
+  <body onload="load_greeting();">
+    <p> Hello </p>
+  </body>
+</html>
+
+
+  
+  
+
+
+
+ 2)radiojs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head>
+    <title> Illustrate messages for radio buttons </title>
+   <script type = "text/javascript">
+      function planeChoice (plane) {
+        switch (plane) {
+          case 152: 
+            alert("A small two-place airplane for flight training");
+            break;
+          case 172: 
+            alert("The smaller of two four-place airplanes");
+            break; 
+           case 182:
+            alert("The larger of two four-place airplanes");
+            break;    
+          case 210:
+            alert("A six-place high-performance airplane");
+            break; 
+          default:
+            alert("Error in JavaScript function planeChoice");
+            break;
+        }
+      }
+    </script>
+</head>
+<body>
+    <h4> Cessna single-engine airplane descriptions </h4>
+    <form id = "myForm"  action = "handler">
+      <p>
+        <input type = "radio"  name = "planeButton"  value = "152"
+               onclick = "planeChoice(152)">
+        Model 152
+        <br />
+        <input type = "radio"  name = "planeButton"  value = "172"
+               onclick = "planeChoice(172)">
+        Model 172 (Skyhawk)
+        <br />
+        <input type = "radio"  name = "planeButton"  value = "182"
+               onclick = "planeChoice(182)">      
+        Model 182 (Skylane)
+        <br />
+        <input type = "radio"  name = "planeButton"  value = "210"
+               onclick = "planeChoice(210)">
+        Model 210 (Centurian)
+      </p>
+    </form>
+  </body>
+</html>
+  
+  
+
+
+
+3)radio2.js
+      function planeChoice (plane) {
+        var dom = document.getElementById("myForm");
+        for (var index = 0; index < dom.planeButton.length; index++) 
+     {
+          if (dom.planeButton[index].checked) 
+      {
+            plane = dom.planeButton[index].value;
+            break;
+        }
+      }
+        switch (plane) 
+    {
+          case "152": 
+            alert("A small two-place airplane for flight training");
+            break;
+          case "172": 
+            alert("The smaller of two four-place airplanes");
+            break; 
+           case "182":
+            alert("The larger of two four-place airplanes");
+            break;    
+          case "210":
+            alert("A six-place high-performance airplane");
+            break; 
+          default:
+            alert("Error in JavaScript function planeChoice");
+            break;
+        }
+      }
+radio2js.html 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head>
+    <title> Illustrate messages for radio buttons </title>
+<script type = "text/javascript">
+      function planeChoice (plane) {
+        var dom = document.getElementById("myForm");
+        for (var index = 0; index < dom.planeButton.length; index++) 
+     {
+          if (dom.planeButton[index].checked) 
+      {
+            plane = dom.planeButton[index].value;
+            break;
+        }
+      }
+// Produce an alert message about the chosen airplane
+        switch (plane) 
+    {
+          case "152": 
+            alert("A small two-place airplane for flight training");
+            break;
+          case "172": 
+            alert("The smaller of two four-place airplanes");
+            break; 
+           case "182":
+            alert("The larger of two four-place airplanes");
+            break;    
+          case "210":
+            alert("A six-place high-performance airplane");
+            break; 
+          default:
+            alert("Error in JavaScript function planeChoice");
+            break;
+        }
+      }
+ </script>
+  </head>
+  <body>
+    <h4> Cessna single-engine airplane descriptions </h4>
+    <form id = "myForm"  action = "">
+      <p>
+        <input type = "radio"  name = "planeButton"  value = "152"> 
+        Model 152
+        <br />
+        <input type = "radio"  name = "planeButton"  value = "172">
+        Model 172 (Skyhawk)
+        <br />
+        <input type = "radio"  name = "planeButton"  value = "182"> 
+        Model 182 (Skylane)
+        <br />
+        <input type = "radio"  name = "planeButton"  value = "210"> 
+        Model 210 (Centurian)
+      </p>
+    </form>
+    <script type = "text/javascript">
+      var dom = document.getElementById("myForm");
+      dom.elements[0].onclick = planeChoice;
+      dom.elements[1].onclick = planeChoice;
+      dom.elements[2].onclick = planeChoice;
+      dom.elements[3].onclick = planeChoice;
+    </script>
+  </body>
+</html>
+  
+  
+
+
+
+4)nochange.js
+//nochange.js 
+// This script illustrates using the focus event
+// to prevent the user from changing a text field 
+// The event handler function to compute the cost 
+function computeCost() { 
+      var french = document.getElementById("french").value; 
+      var hazlenut = document.getElementById("hazlenut").value; 
+      var colombian = document.getElementById("colombian").value; 
+// Compute the cost 
+   document.getElementById("cost").value =
+   totalCost =french * 3.49 + hazlenut * 3.95 + colombian * 4.59; 
+}// end of computeCost 
+
+
+nochangejs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> nochange.html </title>
+<!-- Script for the event handlers -->
+<script type = "text/javascript" src = "nochange.js" >
+</script>
+</head>
+<body>
+<form action = "">
+<h3> Coffee Order Form </h3>
+<!-- A bordered table for item orders -->
+<table border = "border">
+<!-- First, the column headings -->
+<tr>
+<th> Product Name </th>
+<th> Price </th> 
+<th> Quantity </th> 
+</tr> 
+<!-- Now, the table data entries --> 
+<tr> 
+     <th> French Vanilla (1 lb.) </th> 
+     <td> $3.49 </td> 
+     <td> <input type = "text" id = "french" size ="2" /> </td> 
+</tr> 
+<tr> 
+     <th> Hazlenut Cream (1 lb.) </th> 
+     <td> $3.95 </td> 
+     <td> <input type = "text" id = "hazlenut" size = "2" /> </td> 
+</tr> 
+<tr> 
+      <th> Colombian (1 lb.) </th> 
+      <td> $4.59 </td> 
+      <td> <input type = "text" id = "colombian" size = "2" /></td> 
+</tr> 
+</table> 
+<!-- Button for precomputation of the total cost --> 
+    <p> 
+          <input type = "button" value = "Total Cost" onclick="computeCost();"/>
+          <input type = "text" size = "5" id = "cost" onfocus = "this.blur();" /> 
+   </p> 
+<!-- The submit and reset buttons --> 
+    <p> 
+         <input type = "submit" value ="Submit Order" /> 
+         <input type = "reset"  value = "Clear Order Form" />
+    </p>
+    </form>
+    </body>
+    </html> 
+  
+  
+
+5)passwordjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+  <head> <title> Illustrate password checking </title>
+    <script type = "text/javascript">
+   // The event handler function for password checking 
+      function chkPasswords () {
+          var init = document.getElementById("initial"); 
+          var sec = document.getElementById("second"); 
+        if (init.value == "") {
+                alert ("You did not enter a password \n" +
+                       "Please enter one now");
+                init.focus();
+                return false;
+          }  
+        if (init.value != sec.value) {
+                alert("The two passwords are not the same \n" +
+                        "Please re-enter both now");        
+                  init.focus();
+                init.select();
+                return false;
+          } else
+          return true;
+      }
+    </script>
+  </head>
+  <body>
+    <h3> Password Input </h3>
+    <form id = "myForm"  action = "">
+      <p>
+      Your password
+      <input type = "password"  id = "initial"  size = "10">
+      <br><br>
+      Verify password
+      <input type = "password"  id = "second"   size = "10">
+      <br><br>
+      <input type = "reset"  name = "reset">
+      <input type = "submit"  name = "submit">
+      </p>
+    </form>
+    <script type = "text/javascript">
+        // Set submit button onsubmit property to the event handler 
+      document.getElementById("second").onblur = chkPasswords; 
+      document.getElementById("myForm").onsubmit = chkPasswords;
+    </script>
+  </body>
+</html>
+  
+  
+
+6)validationjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml"> 
+    <title> Illustrate form input validation> </title>
+   
+    <script type = "text/javascript">
+// The event handler function for the name text box
+      function chkName() {
+        var myName = document.getElementById("custName");
+// Test the format of the input name 
+//  Allow the spaces after the commas to be optional
+//  Allow the period after the initial to be optional
+        var pos = myName.value.search(
+                  /^[A-Z][a-z]+,[A-Z][a-z]+,?[A-Z]\.?$/);
+        if (pos != 0) {
+          alert("The name you entered (" + myName.value + 
+                ") is not in the correct form. \n" +
+                "The correct form is: " +
+                "last-name, first-name, middle-initial \n" +
+"Please go back and fix your name");
+          myName.focus();
+          myName.select();
+          return false;
+        } else
+          return true;
+      }
+// The event handler function for the phone number text box
+      function chkPhone() {
+        var myPhone = document.getElementById("phone");
+// Test the format of the input phone number
+        var pos = myPhone.value.search(/^\d{3}-\d{3}-\d{4}$/);
+        if (pos != 0) {
+          alert("The phone number you entered (" + myPhone.value +
+                ") is not in the correct form. \n" +
+                "The correct form is: ddd-ddd-dddd \n" +
+                "Please go back and fix your phone number");
+          myPhone.focus();
+          myPhone.select();
+          return false;
+        } else
+          return true;
+      }
+    </script>
+  </head>
+  <body>
+    <h3> Customer Information </h3>
+    <form action = "">
+      <p>
+        <input type = "text"  id = "custName" >
+        Name (last name, first name, middle initial)
+        <br><br>
+        <input type = "text"  id = "phone" >
+        Phone number (ddd-ddd-dddd)
+        <br><br>
+        <input type = "reset"  id = "reset">
+        <input type = "submit"  id = "submit">
+      </p>
+    </form>
+    <script type = "text/javascript">
+// Set form element object properties to their 
+// corresponding event handler functions
+        document.getElementById("custName").onchange = chkName;
+        document.getElementById("phone").onchange = chkPhone;
+    </script>
+  </body>
+</html>
+  
+
+
+
+7) validator2.js 
+// The event handler function for the name text box 
+function chkName(event) { 
+// Get the target node of the event 
+var myName = event.currentTarget; 
+// Test the format of the input name 
+// Allow the spaces after the commas to be optional 
+// Allow the period after the initial to be optional 
+var pos = myName.value.search(/\w+, ?\w+, ?\w.?/); 
+if (pos != 0)
+{
+ alert("The name you entered " + myName.value + " is not in the correct form. \n" + 
+"The correct form is: " +
+"last-name, first-name, middle-initial \n" + 
+"Please go back and fix your name");
+ myName. focus(); 
+ myName.select(); 
+}
+} 
+// The event handler function for the phone number text box 
+function chkPhone(event) { 
+// Get the target node of the event 
+ var myPhone = event.currentTarget; 
+// Test the format of the input phone number 
+ var pos = myPhone.value.search(/^\d{3}-\d{3}-\d{4}$/); 
+if (pos != 0) { 
+alert("The phone number you entered " + myPhone.value +" is not in the correct form. \n" + 
+          "The correct form is: ddd-ddd-dddd \n" + 
+          "Please go back and fix your phone number"); 
+myPhone.focus(); 
+myPhone.select(); 
+}
+}
+ 
+validator2r.js
+// Get the DOM addresses of the elements and register
+// the event handlers
+     var customerNode = document.getElementById("custName");
+     var phoneNode = document.getElementById("phone");
+     customerNode.addEventListener("onchange", chkName, false)
+     phoneNode.addEventListener("onchange", chkPhone, false);
+
+
+validatordom2.html 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<title> Illustrate form input validation with DOM 2> </title>
+<!-- Script to define the event handlers -->
+<script type = "text/javascript" src = "validator2.js" />
+</script>
+</head>
+<body>
+<h3> Customer Information </h3>
+<form action = "">
+<label>
+<input type = "text" id = "custName" />
+Name (last name, first name, middle initial)
+</label>
+<br /><br />
+<label>
+<input type = "text" id = "phone" />
+Phone number (ddd-ddd-dddd)
+</label>
+<br /><br />
+<input type="reset" />
+<input type="submit" id = "submitButton" />
+</p>
+</form>
+<script type = "text/javascript" src = "validator2r.js" /> 
+<!--Script for registering event handlers -->
+</script>
+</body> 
+</html> 
+  
+
+8) navigate.js 
+// An example of using the navigator object 
+// The event handler function to display the browser name 
+// and its version number 
+function navProperties() { 
+alert("The browser is: " + navigator.appName + "\n" +
+"The version number is: " + navigator.appVersion + "\n");
+} 
+
+
+navigatorjs.html 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title> navigate.html </title> 
+<script type = "text/javascript" src = "navigate.js" > 
+</script> 
+</head>
+ <body onload = "navProperties()"> 
+</body> 
+</html> 
+
+
+  
+
+
+
+9)validatordom2ex.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- validator2.html
+A document for validator2.js
+Creates text boxes for a name and a phone number
+Note: This document does not work with 1E6
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<title> Illustrate form input validation with DOM 2> </title>
+<!-- Script to define the event handlers -->
+<script type = "text/javascript" >
+function chkName(event) { 
+// Get the target node of the event 
+var myName = event.currentTarget; 
+// Test the format of the input name 
+// Allow the spaces after the commas to be optional 
+// Allow the period after the initial to be optional 
+var pos = myName.value.search(/\w+, ?\w+, ?\w.?/); 
+if (pos != 0)
+{
+ alert("The name you entered " + myName.value + " is not in the correct form. \n" + 
+"The correct form is: " +
+"last-name, first-name, middle-initial \n" + 
+"Please go back and fix your name");
+ myName. focus(); 
+ myName.select(); 
+}
+} 
+// ********************************************************** 
+// The event handler function for the phone number text box 
+function chkPhone(event) { 
+// Get the target node of the event 
+ var myPhone = event.currentTarget; 
+// Test the format of the input phone number 
+ var pos = myPhone.value.search(/^\d{3}-\d{3}-\d{4}$/); 
+if (pos != 0) { 
+alert("The phone number you entered " + myPhone.value +" is not in the correct form. \n" + 
+          "The correct form is: ddd-ddd-dddd \n" + 
+          "Please go back and fix your phone number"); 
+myPhone.focus(); 
+myPhone.select(); 
+}
+}
+</script>
+</head>
+<body>
+<h3> Customer Information </h3>
+<form action = "">
+<label>
+<input type = "text" id = "custName" />
+Name (last name, first name, middle initial)
+</label>
+<br /><br />
+<label>
+<input type = "text" id = "phone" />
+Phone number (ddd-ddd-dddd)
+</label>
+<br /><br />
+<input type="reset" />
+<input type="submit" id = "submitButton" />
+</p>
+</form>
+<script type = "text/javascript" > 
+var customerNode = document.getElementById("custName");
+     var phoneNode = document.getElementById("phone");
+     customerNode.addEventListener("change", chkName, false)
+     phoneNode.addEventListener("change", chkPhone, false);
+<!--Script for registering event handlers -->
+</script>
+</body> 
+</html> 
+  
+
+________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment 9
+1.  Modify the radio_click.html example to have five buttons, labeled red, blue, green, yellow, and orange. The event handlers for these buttons must produce messages stating the chosen favorite color. The event handler must be implemented as a function, whose name must be assigned to the onclick attribute of the radio button elements. The chosen color must be sent to the event handler as a parameter. 
+<html>
+<head>
+  <title>Illustrate messages for radio buttons</title>
+  <script type="text/javascript">
+      // The event handler for color radio buttons
+      function colorChoice(color) {
+        // Produce an alert message about the chosen color
+        alert("Your favourite color is " + color + "!");
+      }
+  </script>
+</head>
+<body>
+  <h4>Choose Your Favourite Color</h4>
+  <form id="colorForm" action="handler">
+    <p>
+      <input type="radio" name="colorButton" value="red" onclick="colorChoice('red')">
+      Red<br />
+      <input type="radio" name="colorButton" value="blue" onclick="colorChoice('blue')">
+      Blue<br />
+      <input type="radio" name="colorButton" value="green" onclick="colorChoice('green')">
+      Green<br />
+      <input type="radio" name="colorButton" value="yellow" onclick="colorChoice('yellow')">
+      Yellow<br />
+      <input type="radio" name="colorButton" value="orange" onclick="colorChoice('orange')">
+      Orange
+    </p>
+  </form>
+</body>
+</html>
+  
+
+. 
+2. Develop, test, and validate an XHTML document that has checkboxes for apple (59 cents each), orange (49 cents each), and banana (39 cents each), along with a Submit button. Each of the checkboxes should have its own onclick event handler. These handlers must add the cost of their fruit to a total cost. An event handler for the Submit button must produce an alert window with the message Your total cost is $xxx, where xxx is the total cost of the chosen fruit, including 5 percent sales tax. This handler must return false (to avoid actual submission of the form data). 
+<html>
+<head>
+    <title>Fruit Order Form</title>
+    <script>
+        var totalCost = 0;
+
+
+        function handleClick(checkbox, price) {
+            if (checkbox.checked) {
+               totalCost += price;
+            }
+        }
+
+
+        function calculateTotal() {
+            var totalCostWithTax = totalCost * 1.05;
+            alert('Your total cost is $' + totalCostWithTax.toFixed(2));
+            return false;
+        }
+    </script>
+</head>
+<body>
+        <h3>Purchase Fruits</h3>
+    <form onsubmit="return calculateTotal()">
+        <label>
+            <input type="checkbox" id="appleCheckbox" onclick="handleClick(this, 0.59)"> Apple (59 cents each)
+        </label><br/><br/>
+
+
+        <label>
+            <input type="checkbox" id="orangeCheckbox" onclick="handleClick(this, 0.49)"> Orange (49 cents each)
+        </label><br/><br/>
+
+
+        <label>
+            <input type="checkbox" id="bananaCheckbox" onclick="handleClick(this, 0.39)"> Banana (39 cents each)
+        </label><br/><br/>
+
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+  
+
+ 
+3. Develop, test, and validate an XHTML document that collects the following information from the user. last name, first name, middle initial, age (restricted to be greater than 17), and weight (restricted to the range of 80-300). You must have event handlers for the form elements that collect this information that check the input data for correctness. Messages in alert windows must be produced when errors are detected.
+<html>
+<head>
+    <title>User Information Form</title>
+    <script>
+        function validateLastName() {
+            var lastName = document.getElementById('lastName').value;
+            if (lastName.trim() === "") {
+                alert('Please enter a valid Last Name.');
+                return false;
+            }
+            return true;
+        }
+
+
+        function validateFirstName() {
+            var firstName = document.getElementById('firstName').value;
+            if (firstName.trim() === "") {
+                alert('Please enter a valid First Name.');
+                return false;
+            }
+            return true;
+        }
+
+
+        function validateMiddleInitial() {
+            var middleInitial = document.getElementById('middleInitial').value;
+            if (middleInitial.trim() !== "" && middleInitial.length !== 1) {
+                alert('Please enter a valid Middle Initial (if provided) with exactly 1 character.');
+                return false;
+            }
+            return true;
+        }
+
+
+        function validateAge() {
+            var age = document.getElementById('age').value;
+            if (isNaN(age) || parseInt(age, 10) <= 17) {
+                alert('Please enter a valid Age greater than 17.');
+                return false;
+            }
+            return true;
+        }
+
+
+        function validateWeight() {
+            var weight = document.getElementById('weight').value;
+            if (isNaN(weight) || parseInt(weight, 10) < 80 || parseInt(weight, 10) > 300) {
+                alert('Please enter a valid Weight in the range of 80 to 300.');
+                return false;
+            }
+            return true;
+        }
+
+
+        function validateForm() {
+            return (
+                validateLastName() &&
+                validateFirstName() &&
+                validateMiddleInitial() &&
+                validateAge() &&
+                validateWeight()
+            );
+        }
+    </script>
+</head>
+<body>
+        <h2>Personal Data</h2>
+    <form onsubmit="return validateForm()">
+        <label>Last Name:</label>
+        <input type="text" id="lastName" onblur="validateLastName()"><br/><br/>
+
+
+        <label>First Name:</label>
+        <input type="text" id="firstName" onblur="validateFirstName()"><br/><br/>
+
+
+        <label>Middle Initial:</label>
+        <input type="text" id="middleInitial" onblur="validateMiddleInitial()"><br/><br/>
+
+
+        <label>Age:</label>
+        <input type="text" id="age" onblur="validateAge()"><br/><br/>
+
+
+        <label>Weight (80-300):</label>
+        <input type="text" id="weight" onblur="validateWeight()"><br/><br/>
+
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+  
+
+4. The document must have a paragraph of text that describes your home. Choose at least three different phrases (three to six words) of this paragraph and make them change font, font style, color, and font size when the mouse cursor is placed over them. Each of the different phrases must change to different fonts, font styles, colors, and font sizes.
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home Description</title>
+    <style>
+        #homeDescription {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            color: #333;
+        }
+        #fontChange:hover {
+            font-family: "Times New Roman", Times, serif;
+            font-style: italic;
+            color: blue;
+            font-size: 22px;
+        }
+        #colorChange:hover {
+            color: green;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #sizeChange:hover {
+            font-size: 24px;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<p id="homeDescription">
+    My home is <span id="fontChange">cozy and warm</span>. I love the <span id="colorChange">lush green garden</span> outside. The <span id="sizeChange">spacious living room</span> is my favorite spot to relax.
+</p>
+</body>
+</html>
+  
+
+
+
+5. The document must contain four short paragraphs of text, stacked on top of each other, with only enough of each showing so that the mouse cursor can always be placed over some part of them. When the cursor is placed over the exposed part of any paragraph, it should rise to the top to become completely visible.
+<html>
+<head>
+  <style>
+    .container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+    }
+    
+    .paragraph {
+      position: absolute;
+      width: 100%;
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+    
+    .paragraph:hover {
+      transform: scale(1.2);
+      z-index: 1;
+    }
+    
+    .paragraph:nth-child(1) {
+      background-color: #FF6347;
+      font-size: 16px;
+    }
+    
+    .paragraph:nth-child(2) {
+      background-color: #00CED1;
+      font-size: 20px;
+      top: 20px;
+      left: 20px;
+    }
+    
+    .paragraph:nth-child(3) {
+      background-color: #FFD700;
+      font-size: 24px;
+      top: 40px;
+      left: 40px;
+    }
+    
+    .paragraph:nth-child(4) {
+      background-color: #9ACD32;
+      font-size: 28px;
+      top: 60px;
+      left: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="paragraph">Nothing is impossible, the word itself says ‘I’m possible</p>
+    <p class="paragraph">The most important thing is to try and inspire people so that they can be great in whatever they want to do.</p>
+    <p class="paragraph">Once you replace negative thoughts with positive ones, you'll start having positive results.</p>
+    <p class="paragraph">Positive anything is better than negative nothing</p>
+  </div>
+</body>
+</html>
+  
+
+
+
+6. The document must contain the statement "Save time with TIMESAVER 2.2," which continuously moves back and forth across the top of the display 
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @keyframes moveText {
+      0% { left: 0; }
+      50% { left: calc(100% - 200px); } /* Adjust the width of the text */
+      100% { left: 0; }
+    }
+    
+    .moving-text {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      background-color: #333;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      line-height: 50px;
+      animation: moveText 8s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="moving-text">Save time with TIMESAVER 2.2</div>
+</body>
+</html>
+
+
+  
+
+7.  Parameter: An array of strings. 
+Return value: A list of the three strings that occur most frequently in the parameter array. 
+<html>
+<head>
+  <title>Top Three Strings</title>
+</head>
+<body>
+<script>
+function topThreeStrings(arr) {
+    // Count the occurrences of each string in the array
+    let counts = {};
+    for (let i = 0; i < arr.length; i++) {
+        let word = arr[i];
+        counts[word] = (counts[word] || 0) + 1;
+    }
+    // Sort the unique strings by their counts in descending order
+    let sorted = Object.keys(counts).sort(function(a, b) {
+        return counts[b] - counts[a];
+    });
+    // Get the top three strings
+    let result = sorted.slice(0, 3);
+    return result;
+}
+let inputString = prompt("Enter a list of strings separated by commas:");
+let inputArray = inputString.split(",").map(item => item.trim());
+let topThree = topThreeStrings(inputArray);
+alert("Top three strings: " + topThree.join(", "));
+</script>
+</body>
+</html>
+  
+  
+
+
+
+8. Parameter: A string of numbers separated by spaces. 
+Return value: The first four-digit number in the string; false if none. 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find First Four-Digit Number</title>
+</head>
+<body>
+<script>
+function findFourDigitNumber(str) {
+    // Split the string into an array of numbers
+    let numbers = str.split(" ");
+
+
+    // Iterate through the numbers array to find the first four-digit number
+    for (let i = 0; i < numbers.length; i++) {
+        let num = parseInt(numbers[i]);
+        if (num >= 1000 && num <= 9999) {
+            return num; // Return the first four-digit number found
+        }
+    }
+
+
+    return false; // Return false if no four-digit number is found
+}
+
+
+// Example usage:
+let inputString = prompt("Enter a string of numbers separated by spaces:");
+let result = findFourDigitNumber(inputString);
+
+
+if (result !== false) {
+    alert("The first four-digit number is: " + result);
+} else {
+    alert("No four-digit number found in the input string.");
+}
+</script>
+
+
+</body>
+</html>
+
+
+  
+  
+
+9. Parameter. A file variable of a file of text, where the words are separated by spaces or colons. 
+Return value: The word that appears most often in the file. 
+<html>
+<head>
+  <title>Most Common Word in File</title>
+</head>
+<body>
+<input type="file" id="fileInput">
+<script>
+document.getElementById('fileInput').addEventListener('change', function() {
+    const file = this.files[0];
+    const reader = new FileReader();
+    reader.onload = function(event) {
+        const content = event.target.result;
+        const words = content.split(/[ :]+/); // Split words by space or colon
+        // Create an object to count word occurrences
+        const wordCounts = {};
+        let mostCommonWord = '';
+        let maxCount = 0;
+
+
+        words.forEach(word => {
+            word = word.toLowerCase(); // Convert to lowercase for case-insensitivity
+            if (word.trim() !== '') {
+                wordCounts[word] = (wordCounts[word] || 0) + 1;
+                if (wordCounts[word] > maxCount) {
+                    maxCount = wordCounts[word];
+                    mostCommonWord = word;
+                }
+            }
+        });
+        if (mostCommonWord !== '') {
+            alert(`The most common word in the file is: "${mostCommonWord}"`);
+        } else {
+            alert('No words found in the file.');
+        }
+    };
+    reader.readAsText(file);
+});
+</script>
+</body>
+</html>
+  
+
+10. Write the XHTML code to provide a form that collects names and telephone numbers. The phone numbers must be in the format ddd-ddd¬dddd. Write a PHP script that checks the submitted telephone number to be sure that it conforms to the required format and then returns a response that indicates whether the number was correct.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Telephone Number Form</title>
+</head>
+<body>
+  <?php
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      $name = $_POST["name"];
+      $telephone = $_POST["telephone"];
+      
+      // Regular expression pattern to match ddd-ddddddd format
+      $pattern = "/^\d{3}-\d{7}$/";
+      
+      if (preg_match($pattern, $telephone)) {
+          echo "Hello, $name! The telephone number $telephone is correct.";
+      } else {
+          echo "Hello, $name! The telephone number $telephone is not in the correct format (ddd-ddddddd).";
+      }
+  }
+  ?>
+
+
+  <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="telephone">Telephone Number (ddd-ddddddd):</label>
+    <input type="text" id="telephone" name="telephone" ><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+  
+  
+
+
+
+
+
+
+
+________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WEEK 10
+1.  absolutepos.xhtml
+<html>
+<head> <title> Absolute positioning </title> 
+<style type="text/css"> 
+/* A style for a paragraph of text */ 
+.regtext {font-family: Times; font-size: 14pt; width: 400px} 
+/* A style for the text to be absolutely positioned */ 
+.abstext {position: absolute; top: 25px; left: 50px; 
+               font-family: Times; font-size: 24pt; 
+               font-style: italic; letter-spacing: lem; 
+               color: rgb(102,102,102); width: 500px} 
+</style> </head> 
+<body> 
+<p class = "regtext"> 
+     Apple is the common name for any tree of the genus Malus, of the family Rosaceae. 
+     Apple trees grow in any of the temperate areas of the world. Some apple blossoms are white, but most have stripes or tints of rose. 
+     Some apple blossoms are bright red. Apples have a firm and fleshy structure that grows from the blossom. 
+     The colors of apples range from green to very dark red. The wood of apple trees is fine-grained and hard. 
+     It is, therefore, good for furniture construction. Apple trees have been grown for many centuries. 
+     They are propagated by grafting because they do not reproduce themselves. 
+</p> 
+<p class = "abstext"> APPLES ARE GOOD FOR YOU 
+</p> 
+</body> 
+</html> 
+
+
+OUTPUT:
+  
+
+2. absolutepos2.xhtml 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head> <title> Nested absolute positioning </title> 
+<style type = "text/css"> 
+/* A style for a paragraph of text */ 
+.regtext {font-family: Times; font-size: 14pt; width: 500px; position: absolute; top: 100px; left: 0px;} 
+/*A style for the text to be absolutely positioned */ 
+.abstext {position: absolute; top: 25px; left: 50px; 
+               font-family: Times; font-size: 24pt; 
+               font-style: italic; letter-spacing: l em; color: rgb(102,102,102); width: 600px;} 
+</style> 
+</head> 
+<body> 
+<div class = "regtext">
+ Apple is the common name for any tree of the genus Malus of the family Rosaceae. 
+Apple trees grow in any of the temperate areas of the world. Some apple blossoms are white, but most 
+have stripes or tints of rose. Some apple blossoms are bright red. Apples have a firm and fleshy structure that grows from the blossom. 
+The colors of apples range from green to very dark red. The wood of apple trees is fine-grained and hard. It is, therefore, good for furniture construction. 
+Apple trees have been grown for many centuries. They are propagated by grafting because they do not reproduce themselves. 
+<span class = "abstext"> APPLES ARE GOOD FOR YOU </span> 
+</div> 
+</body> 
+</html> 
+
+
+OUTPUT:
+  
+
+3. relativepos.xhtml
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> <title> Relative positioning </title> </head> 
+<body style = "font-family: Times; font-size: 24pt;"> 
+<p>
+ Apples are <span style=
+                       "position: relative;top: 15px; 
+                        font-family: Times; font-size: 48pt; 
+                        font-style: italic; color: red;"> 
+ GOOD </span> for you. 
+</p>
+ </body> 
+</html> 
+
+
+OUTPUT:
+  
+
+4. moverjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<title> Moving elements </title>
+<script type = "text/javascript" src = "mover.js">
+</script>
+</head>
+<body>
+<form action = "">
+<p>
+<label>
+ x coordinates:
+<input type = "text" id = "leftCoord" size = "3" />
+</label>
+<br />
+<label>
+y coordinates:
+<input type = "text" id = "topCoord" size = "3" />
+</label>
+<br />
+<input type = "button" value = "Move it"
+onclick = "moveIt('Cessna aircraft',
+                  document.getElementById('topCoord').value,
+                  document.getElementById('leftCoord').value)"
+/>
+</p>
+</form>
+<div id = "Cessna aircraft" style = "position: absolute;
+                 top: 115px; left: 0;">
+<img src = "Cessna aircraft.jpg" alt = "(Picture of a Cessna aircraft )" />
+</div>
+</body>
+</html>
+
+
+mover.js
+function moveIt(movee, newTop, newLeft) {
+dom = document.getElementById(movee).style;
+dom.top = newTop + "px";
+dom.left= newLeft + "px";
+}
+
+
+OUTPUT:
+  
+
+
+
+5. visibilityjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- showHide.html
+Uses showHide.js
+Illustrates visibility control of elements
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<title> Visibility control </title>
+<script type = "text/javascript"src = "showHide.js">
+</script>
+</head>
+<body>
+<form action = "">
+<div id = "Cessna aircraft" style = "position:relative;
+visibility: visible;">
+<img src = "Cessna aircraft.jpg"
+alt = "(Picture of Desert)" />
+</div>
+<p>
+<br />
+<input type = "button"
+value = "Toggle Cessna aircraft"
+onclick = "flipImag()" />
+</p>
+</form>
+</body>
+</html>
+
+
+showHide.js
+function flipImag(){
+im=document.getElementById("Cessna aircraft")
+if (im.style.visibility==="hidden")
+ im.style.visibility="visible";
+else
+ im.style.visibility="hidden";
+}
+
+
+OUTPUT:
+  
+
+6. colorchanegjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Dynamic Colors</title>
+    <script type="text/javascript" src="dynColors.js"></script>
+  </head>
+  <body>
+    <p style="font-family: Times; font-style: italic; font-size: 2em">
+      This small page illustrates dynamic setting of the foreground and
+      background colors for a document
+    </p>
+    <form action="">
+      <p>
+        <label>
+          Background color:
+          <input
+            type="text"
+            name="background"
+            size="10"
+            onchange="setColor('background',
+this.value)"
+          />
+        </label>
+        <br />
+        <label>
+          Foreground color:
+          <input
+            type="text"
+            name="foreground"
+            size="10"
+            onchange="setColor('foreground',
+this.value)"
+          />
+        </label>
+        <br />
+      </p>
+    </form>
+  </body>
+</html>
+
+
+dynColors.js
+function setColor(where, newColor) {
+if (where == "background")
+document.body.style.backgroundColor = newColor;
+else
+document.body.style.color = newColor;
+}
+
+
+OUTPUT:
+  
+
+
+
+7. fontchange.xhtml
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Dynamic fonts for links</title>
+    <style type="text/css">
+      .regText {
+        font: Times;
+        font-size: 16pt;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="regText">
+      The state of
+      <a
+        style="color: blue"
+        onmouseover="this.style.color = 'red';
+                           this.style.font = 'italic 16pt Times';"
+        onmouseout="this.style.color = 'blue';
+                this.style.font = 'normal 16pt Times';" >
+        Washington
+      </a>
+      produces many of our nation's apple.
+    </p>
+  </body>
+</html>
+
+
+OUTPUT:
+  
+
+8. dynamicjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Dynamic values</title>
+    <script type="text/javascript" src="dynValue.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <p style="font-weight: bold">
+        <span style="font-style: italic"> Customer information </span>
+        <br />
+        <br />
+        <label>
+          Name:
+          <input type="text" onmouseover="messages(0)" onmouseout="messages(4)"  />
+        </label>
+        <br />
+        <label>
+          E-mail:
+          <input type="text" onmouseover="messages(1)" onmouseout="messages(4)" />
+        </label>
+        <br />
+        <br />
+        <span style="font-style: italic">
+          To create an account, provide the following:
+        </span>
+        <br />
+        <br />
+        <label>
+          User ID:
+          <input type="text" onmouseover="messages(2)" onmouseout="messages(4)" />
+        </label>
+        <br />
+        <label>
+          Password:
+          <input type="password" onmouseover="messages(3)" onmouseout="messages(4)" />
+        </label>
+        <br />
+        <textarea id="adviceBox" row="3" cols="50">
+This box provides advice on filling out
+the form on this page. Put the mouse
+cursor over any input field to get advice.
+</textarea >
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </p>
+    </form>
+  </body>
+</html>
+
+
+dynValue.js
+var helpers = ["Your name must be in the form: \n \ first name, middle initial., last name","Your email address must have the form: \ user@domain", "Your user ID must have at least six \
+characters and it must include one digit", "Your password must have at least six \ characters and it must include one digit", "This box provides advice on filling out\ the form on this page. Put the mouse cursor over \ any input field to get advice"]
+function messages(adviceNumber) {
+document.getElementById("adviceBox").value =
+helpers[adviceNumber];
+}
+
+
+OUTPUT:
+  
+
+
+
+9. stackingjs.html 
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Dynamic stacking of images</title>
+    <script type="text/javascript" src="stacking.js"></script>
+    <style type="text/css">
+      .plane1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+      }
+      .plane2 {
+        position: absolute;
+        top: 50px;
+        left: 110px;
+        z-index: 0;
+      }
+      .plane3 {
+        position: absolute;
+        top: 100px;
+        left: 220px;
+        z-index: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <img
+        class="plane1"
+        id="C172"
+        src="c172.jpg"
+        alt="(Picture of a C172)"
+        onclick="toTop('C172')"
+      />
+      <img
+        class="plane2"
+        id="Citation"
+        src="Citation.jpg"
+        alt="(Picture of a Citation airplane)"
+        onclick="toTop('Citation')"
+      />
+      <img
+        class="plane3"
+        id="C182"
+        src="c182.jpg"
+        alt="(Picture of a C182)"
+        onclick="toTop('C182')"
+      />
+    </p>
+  </body>
+</html>
+
+
+Stacking.js
+var oldtop = "C172";
+function toTop(newTop) {
+domTop = document.getElementById(oldtop).style;
+domNew = document.getElementById(newTop).style;
+domTop.zIndex = "0";
+domNew.zIndex = "10";
+oldtop = newTop;
+}
+
+
+OUTPUT:
+  
+
+10.  wherejs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Where is the cursor?</title>
+    <script type="text/javascript" src="where.js"></script>
+  </head>
+  <body onclick="findIt(event)">
+    <form>
+      <p>
+        Within the client area: <br />
+        x:
+        <input type="text" id="xcoor1" size="4" />
+        y:
+        <input type="text" id="ycoor1" size="4" />
+        <br />
+        <br />
+        Relative to the origin of the screen coordinate system:
+        <br />
+        x:
+        <input type="text" id="xcoor2" size="4" />
+        y:
+        <input type="text" id="ycoor2" size="4" />
+      </p>
+    </form>
+    <p>
+      <img src="c172.jpg" alt="(Picture of a C172)" />
+    </p>
+  </body>
+</html>
+
+
+where.js
+function findIt(evt) {
+document.getElementById("xcoor1").value= evt.clientX;
+document.getElementById("ycoor1").value= evt.clientY;
+document.getElementById("xcoor2").value= evt.screenX;
+document.getElementById("ycoor2").value= evt.screenY;
+}
+
+
+OUTPUT:
+  
+
+
+
+11. anywherejs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Sense events anywhere</title>
+    <script type="text/javascript" src="anywhere.js"></script>
+  </head>
+  <body onmousedown="displayIt(event);" onmouseup="hideIt();">
+    <p>
+      <span
+        id="message"
+        style="
+          color: red;
+          visibility: hidden;
+          position: relative;
+          font-size: 1.7em;
+          font-style: italic;
+          font-weight: bold;
+        "
+      >
+        Please don't click here!
+      </span>
+      <br /><br /><br /><br /><br /><br /><br />
+    </p>
+  </body>
+</html>
+
+
+anywhere.js
+function displayIt(evt) {
+var dom = document.getElementById("message");
+dom.style.left = (evt.clientX - 130) + "px";
+dom.style.top = (evt.clientY - 25) + "px";
+dom.style.visibility = "visible";
+function hideIt() {
+document.getElementById("message").style.visibility = "hidden";
+}
+
+
+OUTPUT:
+  
+
+12. moveTextjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- moveText.html
+Uses moveTextfuns.js
+Illustrates a moving text element
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Moving text</title>
+    <script type="text/javascript" src="moveText.js"></script>
+  </head>
+  <!�- Call the initializing function on load,
+giving the destination coordinates for the
+text to be moved
+-->
+  <body onload="initText()">
+    <p>
+      <span
+        id="theText"
+        style="
+          position: absolute;
+          left: 500px;
+          top: 500px;
+          font: bold 1.7em 'Times Roman';
+          color: blue;
+        "
+      >
+        Jump in the lake!
+      </span>
+    </p>
+  </body>
+</html>
+
+
+moveText.js
+var dom, x, y, finalx = 300, finaly = 300;
+function initText() {
+dom = document.getElementById('theText').style;
+var x = dom.left;
+var y = dom.top;
+x = x.match(/\d+/);
+y = y.match(/\d+/);
+moveText(x, y);
+function moveText(x, y) {
+if (x != finalx) 
+     if(x > finalx) x--;
+else if (x < finalx) x++;
+if (y != finaly) 
+   if(y > finaly)y--;
+else if (y < finaly) y++;
+if ((x != finalx) || (y != finaly)) {
+dom.left = x + "px";
+dom.top = y + "px";
+setTimeout("moveText(" + x + ", " + y + ")",1);
+}
+}
+
+
+OUTPUT:
+  
+
+
+
+13. dragNDropjs.html
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Drag and drop</title>
+    <script type="text/javascript" src="dragNDrop.js"></script>
+  </head>
+  <body style="font-size: 1.25em">
+    <p>
+      Roses are red <br />
+      Violets are blue <br />
+      <span
+        style="
+          position: absolute;
+          top: 200px;
+          left: 0px;
+          background-color: lightgrey;
+        " onmousedown="grabber(event);"  >
+        candy
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 200px;
+          left: 75px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);" >
+        cats
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 200px;
+          left: 150px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);">
+        cows
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 200px;
+          left: 225px;
+          background-color: lightgrey;
+        " onmousedown="grabber(event);"  >
+        glue
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 200px;
+          left: 300px;
+          background-color: lightgrey;
+        " onmousedown="grabber(event);" >
+        is
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 200px;
+          left: 375px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);" >
+        is
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 200px;
+          left: 450px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);">
+        meow
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 250px;
+          left: 0px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);">
+        mine
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 250px;
+          left: 75px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);">
+        moo
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 250px;
+          left: 150px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);">
+        new
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 250px;
+          left: 225px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);"  >
+        old
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 250px;
+          left: 300px;
+          background-color: lightgrey;
+        " onmousedown="grabber(event);">
+        say
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 250px;
+          left: 375px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);">
+        say
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 250px;
+          left: 450px;
+          background-color: lightgrey;
+        " onmousedown="grabber(event);" >
+        so
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 300px;
+          left: 0px;
+          background-color: lightgrey;
+        " onmousedown="grabber(event);">
+        sticky</span  >
+      <span
+        style="
+          position: absolute;
+          top: 300px;
+          left: 75px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);">
+        sweet
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 300px;
+          left: 150px;
+          background-color: lightgrey;
+        " onmousedown="grabber(event);" >
+        syrup
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 300px;
+          left: 225px;
+          background-color: lightgrey;
+        " onmousedown="grabber(event);">
+        too
+      </span>
+      <span
+        style="
+          position: absolute;
+          top: 300px;
+          left: 300px;
+          background-color: lightgrey;
+        "onmousedown="grabber(event);" >
+        yours
+      </span>
+    </p>
+  </body>
+</html>
+
+
+dragNDrop.js
+var diffX, diffY, theElement;
+function grabber(event) {
+theElement = event.currentTarget;
+var posX = parseInt(theElement.style.left);
+var posY = parseInt(theElement.style.top);
+diffX = event.clientX - posX;
+diffY = event.clientY - posY;
+document.addEventListener("mousemove",mover, true);
+document.addEventListener("mouseup",dropper, true);
+event.stopPropagation();
+event.preventDefault();
+}
+function mover(event) {
+theElement.style.left = (event.clientX - diffX) + "px";
+theElement.style.top = (event.clientY - diffY) + "px";
+// Prevent propagation of the event
+event.stopPropagation();
+}
+function dropper(event) {
+document.removeEventListener("mouseup", dropper,true);
+document.removeEventListener("mousemove", mover,true);
+event.stopPropagation();
+}
+
+
+OUTPUT:
+  
+
+
+
+________________
+
+
+
+
+Assignment 10
+1. Write the XHTML code to create a form with the following capabilities:
+1. A text widget to collect the user's name
+2. Four checkboxes, one each for the following items:
+I.  Four 100-watt light bulbs for $2.39
+Ii. Eight 100-watt light bulbs for $4.29
+Iii. Four 100-watt long-life light bulbs for $3.95
+Iv. Eight 100-watt long-life light bulbs for $7.49
+3. A collection of three radio buttons that are labeled as follows:
+I. Visa
+Ii. MasterCard
+iii. Discover
+Write a PHP script that computes the total cost of the ordered light bulbs after adding a 6.2 percent sales tax. The pro¬gram must inform the buyer of exactly what was ordered, in a table.
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Light Bulb Order Form</title>
+</head>
+<body>
+    <form action="process_order.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+        <p>Choose your light bulbs:</p>
+        <input type="checkbox" id="bulbs_4" name="bulbs[]" value="4 bulbs" />
+        <label for="bulbs_4">Four 100-watt light bulbs - $2.39</label><br />
+        <input type="checkbox" id="bulbs_8" name="bulbs[]" value="8 bulbs" />
+        <label for="bulbs_8">Eight 100-watt light bulbs - $4.29</label><br />
+        <input type="checkbox" id="long_life_4" name="bulbs[]" value="4 long-life bulbs" />
+        <label for="long_life_4">Four 100-watt long-life light bulbs - $3.95</label><br />
+        <input type="checkbox" id="long_life_8" name="bulbs[]" value="8 long-life bulbs" />
+        <label for="long_life_8">Eight 100-watt long-life light bulbs - $7.49</label><br />
+        <p>Select payment method:</p>
+        <input type="radio" id="visa" name="payment" value="Visa" />
+        <label for="visa">Visa</label><br />
+        <input type="radio" id="mastercard" name="payment" value="MasterCard" />
+        <label for="mastercard">MasterCard</label><br />
+        <input type="radio" id="discover" name="payment" value="Discover" />
+        <label for="discover">Discover</label><br />
+        <input type="submit" value="Submit Order" />
+    </form>
+</body>
+</html>
+process_order.php
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST["name"];
+    $selectedBulbs = isset($_POST["bulbs"]) ? $_POST["bulbs"] : [];
+    $paymentMethod = isset($_POST["payment"]) ? $_POST["payment"] : "";
+
+
+    // Prices for selected bulbs
+    $prices = [
+        "4 bulbs" => 2.39,
+        "8 bulbs" => 4.29,
+        "4 long-life bulbs" => 3.95,
+        "8 long-life bulbs" => 7.49,
+    ];
+
+
+    // Calculate total cost
+    $totalCost = 0;
+    foreach ($selectedBulbs as $bulb) {
+        $totalCost += $prices[$bulb];
+    }
+
+
+    // Add 6.2% sales tax
+    $salesTax = $totalCost * 0.062;
+    $totalCost += $salesTax;
+?>
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Order Summary</title>
+</head>
+<body>
+    <h2>Order Summary for <?php echo $name; ?></h2>
+    <table border="1">
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <?php
+        foreach ($selectedBulbs as $bulb) {
+            echo "<tr><td>$bulb</td><td>$" . number_format($prices[$bulb], 2) . "</td></tr>";
+        }
+        ?>
+        <tr>
+            <td>Sales Tax (6.2%)</td>
+            <td>$<?php echo number_format($salesTax, 2); ?></td>
+        </tr>
+        <tr>
+            <th>Total Cost</th>
+            <th>$<?php echo number_format($totalCost, 2); ?></th>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+<?php
+} else {
+    // Redirect to the form if accessed directly
+    header("Location: order_form.html");
+    exit();
+}
+?>
+OUTPUT:
+  
+  
+
+
+
+2.Use MySQL to create a database of information about used trucks for sale, similar to the cars database used in this chapter. Make up equipment that characterizes trucks. Get the raw data from the ad section of your local newspaper. Instead of the states in the cars database, divide your town into four sections and  use them.
+
+
+CREATE DATABASE IF NOT EXISTS truck_sales;
+USE truck_sales;
+CREATE TABLE IF NOT EXISTS trucks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    make VARCHAR(50) NOT NULL,
+    model VARCHAR(50) NOT NULL,
+    year INT NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    equipment VARCHAR(255),
+    description TEXT,
+    location_id INT,
+    FOREIGN KEY (location_id) REFERENCES locations(id)
+);
+CREATE TABLE IF NOT EXISTS locations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    section VARCHAR(50) NOT NULL
+);
+INSERT INTO locations (section) VALUES
+    ('North'),
+    ('South'),
+    ('East'),
+    ('West');
+INSERT INTO trucks (make, model, year, price, equipment, description, location_id) VALUES
+    ('Ford', 'F-150', 2018, 25000.00, '4WD, Tow Package', 'Low mileage, excellent condition.', 1),
+    ('Chevrolet', 'Silverado', 2017, 28000.00, 'Extended Cab, Bed Liner', 'One owner, well-maintained.', 2),
+    ('Toyota', 'Tacoma', 2019, 32000.00, 'Off-Road Package', 'Great for off-road adventures.', 3),
+    ('Dodge', 'Ram 1500', 2016, 22000.00, 'Hemi Engine, Navigation', 'Powerful and loaded with features.', 4);
+SELECT * FROM trucks;
+
+
+
+
+________________
+
+
+
+
+
+
+WEEK 11
+1. index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="mycode.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <h1>My Site</h1>
+    <div class="main">
+      Welcome to my site! Obviously, this site is all about me! I probably
+      should think about others, but right now I am simply talking about me.
+    </div>
+    <div class="about-me">
+      <h2>About Me</h2>
+      I enjoy writing HTML, CSS, and jQuery. I also picked up a love of flying
+      kites when a friend of my told me to &quot;Go fly a kite!&quot; I did, and
+      it has been a hobby ever since.
+    </div>
+  </body>
+</html>
+
+
+OUTPUT:
+  
+
+
+
+2. alleleclassid.html
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Site</title>
+<link href="style.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+<script src="alleleclassid.js" type="text/javascript"></script>
+</head>
+<body>
+<h1>My Site</h1>
+<div class="about-me">hi how r u</div>
+<p class="about-me">i am fine how r u</p>
+<img class="about-me bio-image" src="Cessna aircraft.jpg" alt="Cessna aircraft">
+<div id="author-bio">I write for various Web sites.</div>
+<div id="bio-link"><a href="http://www.mysite.com">My Site</a></div>
+<p class="author-bio">More about me...</p>
+</body>
+</html>
+
+
+alleleclassid.js
+$(document).ready(function() {
+$("*").addClass("special");
+$("div").addClass("special1");
+$(".about-me").addClass("special2");
+$("#author-bio").addClass("special3");
+$(".bio-image").addClass("special4");
+});
+
+
+style.css
+.special{ font-style:italic; }
+.special1{ font-family: sans-serif;}
+.special2{ font-weight: bold; border:5px solid #F00;}
+.special3{ font-variant: small-caps; }
+.special4{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+
+
+OUTPUT:
+  
+
+
+
+3. desc.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .items {
+        list-style-type: square;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="desc.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+desc.js
+$(document).ready(function() {
+$(".supplies li").addClass("items");
+});
+
+
+OUTPUT:
+  
+
+
+
+4. child.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .items {
+        list-style-type: square;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="child.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+child.js
+$(document).ready(function() {
+$(".supplies").addClass("items");
+});
+
+
+OUTPUT:
+  
+
+
+
+5. firstchild.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .items {
+        list-style-type: square;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="firstchild.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+firstchild.js
+$(document).ready(function() {
+$("ul li:first-child").addClass("items");
+});
+
+
+OUTPUT:
+          
+
+
+6. lastchild.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .items {
+        list-style-type: square;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="lastchild.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+lastchild.js
+$(document).ready(function() {
+$("ul li:last-child").addClass("items");
+});
+
+
+OUTPUT:
+  
+
+
+
+7. nthchild.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .items {
+        list-style-type: square;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="nthchild.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+nthchild.js
+$(document).ready(function() {
+$("ul li:nth-child(2)").addClass("items");
+});
+
+
+OUTPUT:
+  
+
+8. notslector.html
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>No Selector</title>
+    <link href="cool.css" rel="stylesheet" />
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="notselector.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <p class="cool">I am cool.</p>
+    <p>I don't feel very cool.</p>
+    <p class="uncool">Not cool.</p>
+    <p class="cool">Nice and cool here!</p>
+    <p class="cool">Very cool indeed!</p>
+  </body>
+</html>
+
+
+notselector.js
+$("p:not(.cool)")
+
+
+OUTPUT:
+  
+
+
+
+9. noalt.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      .needs-alt {
+        border: 5px solid #f00;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="noalt.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <p><img src="c172.jpg" width="100" alt="" /></p>
+    <p><img src="c182.jpg" width="100" alt="cool" /></p>
+    <p><img src="Citation.jpg" width="100" /></p>
+    <p><img src="Cessna aircraft.jpg" width="100" alt="cool beans" /></p>
+  </body>
+</html>
+
+
+noalt.js 
+$(document).ready(function() {
+$("img:not([alt])").addClass("needs-alt");
+});
+
+
+OUTPUT:
+  
+
+
+
+10. alt.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      .needs-alt {
+        border: 5px solid #f00;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="alt.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <p><img src="c172.jpg" width="100" alt="" /></p>
+    <p><img src="c182.jpg" width="100" alt="cool" /></p>
+    <p><img src="Citation.jpg" width="100" alt="cool" /></p>
+    <p><img src="Cessna aircraft.jpg" width="100" alt="cool beans" /></p>
+  </body>
+</html>
+
+
+ alt.js
+$(document).ready(function() {
+$("img[alt='cool']").addClass("needs-alt");
+});
+OUTPUT:
+  
+
+
+
+11. noteqalt.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      .needs-alt {
+        border: 5px solid #f00;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="noteqalt.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <p><img src="c172.jpg" width="100" alt="" /></p>
+    <p><img src="c182.jpg" width="100" alt="cool" /></p>
+    <p><img src="Citation.jpg" width="100" alt="cool" /></p>
+    <p><img src="Cessna aircraft.jpg" width="100" alt="cool beans" /></p>
+  </body>
+</html>
+
+
+noteqalt.js
+$(document).ready(function() {
+$("img[alt!='cool']").addClass("needs-alt");
+});
+
+
+OUTPUT:
+  
+
+
+
+12. firstselector.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .items {
+        list-style-type: square;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="firstselector.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+firstselector.js
+$(document).ready(function() {
+$(".supplies li:first").addClass("items");
+});
+
+
+OUTPUT:
+  
+
+
+
+13. indexat.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .items {
+        list-style-type: square;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="indexat.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+indexat.js
+$(document).ready(function() {
+$(".supplies li:eq(1)").addClass("items");
+});
+
+
+OUTPUT:
+  
+
+
+
+14. evenoddselector.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      .emp-alt {
+        background-color: #ddd;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="evenoddselector.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <table class="employees">
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>12345</td>
+      </tr>
+      <tr>
+        <td>James</td>
+        <td>12346</td>
+      </tr>
+      <tr>
+        <td>Heather</td>
+        <td>12347</td>
+      </tr>
+      <tr>
+        <td>Jerry</td>
+        <td>12348</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+Evenoddselector.js
+$(document).ready(function() {
+$(".employees tr:even").addClass("emp-alt");
+});
+
+
+OUTPUT:
+  
+
+
+
+15) attributeselec.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      .needs-alt {
+        border: 5px solid #f00;
+      }
+      .not-alt {
+        border: 10px solid #a04;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="attributeselec.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <p><img src="c172.jpg" width="100" /></p>
+    <p><img src="c182.jpg" width="100" alt="cool" /></p>
+    <p><img src="Citation.jpg" width="100" alt="cool" /></p>
+    <p><img src="Cessna aircraft.jpg" width="100" alt="cool beans" /></p>
+  </body>
+</html>
+
+
+Attributeselec.js
+$(document).ready(function() {
+$("img[alt='cool']").addClass("needs-alt");
+$("img:not([alt])").addClass("not-alt");
+});
+
+
+OUTPUT:
+  
+
+
+
+16) evenoddselector1.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      .emp-alt {
+        background-color: #ddd;
+      }
+      .emp-alt1 {
+        background-color: #aaa;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="evenoddselector1.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <table class="employees">
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>12345</td>
+      </tr>
+      <tr>
+        <td>James</td>
+        <td>12346</td>
+      </tr>
+      <tr>
+        <td>Heather</td>
+        <td>12347</td>
+      </tr>
+      <tr>
+        <td>Jerry</td>
+        <td>12348</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+evenoddselector1.js
+$(document).ready(function() {
+$(".employees tr:even").addClass("emp-alt");
+$(".employees tr:odd").addClass("emp-alt1");
+});
+
+
+OUTPUT:
+  
+
+
+
+17) firstlastnthchildsel.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .item1 {
+        list-style-type: square;
+      }
+      .item2 {
+        list-style-type: circle;
+      }
+      .item3 {
+        list-style-type: none;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="firstlastnthchild.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+          <li>Maths Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+firstlastnthchild.js
+$(document).ready(function() {
+$("ul li:first-child").addClass("item1");
+$("ul li:last-child").addClass("item2");
+$("ul li:nth-child(2)").addClass("item3");
+});
+
+
+OUTPUT:
+  
+
+
+
+18) firstlastnthselector.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style type="text/css">
+      ul {
+        list-style-type: disc;
+      }
+      .item1 {
+        list-style-type: square;
+      }
+      .item2 {
+        list-style-type: circle;
+      }
+      .item3 {
+        list-style-type: none;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="firstlastnthselector.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <ul class="supplies">
+      <li>Pencils</li>
+      <li>Paper</li>
+      <li>
+        Books
+        <ul>
+          <li>Science Book</li>
+          <li>History Book</li>
+          <li>Maths Book</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+
+firstlastnthselector.js
+$(document).ready(function() {
+$(".supplies li:first").addClass("item1");
+$(".supplies li:last").addClass("item2");
+$(".supplies li:eq(1)").addClass("item3");
+});
+
+
+OUTPUT:
+  
+
+________________
+
+
+
+
+WEEK 12
+JQuery
+1. size.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Project 2-1</title>
+    <style type="text/css">
+      .large-font {
+        font-size: 1.5em;
+      }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="size.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="change-size">
+      This text is important! Click this text to enlarge it if needed!
+    </div>
+  </body>
+</html>
+
+
+size.js
+$(document).ready(function() {
+$("#change-size").click(function() {
+$("#change-size").addClass("large-font");
+});
+});
+
+
+OUTPUT:
+  
+
+
+
+2. size1.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project 2-1</title>
+    <style type="text/css">
+        .large-font {
+            font-size: 1.5em;
+        }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="size1.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="change-size">
+        This text is important! Click this text to enlarge it if needed!
+    </div>
+    <div>
+        <form action="size-larger.html">
+            <button id="enlarge">Enlarge Text</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
+
+
+size1.js
+$(document).ready(function() {
+$("#enlarge").click(function() {
+$("#change-size").addClass("large-font");
+});
+});
+
+
+OUTPUT:
+  
+
+
+
+3. size2.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project 2-1</title>
+    <style type="text/css">
+        .large-font {
+            font-size: 1.5em;
+        }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="size2.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="change-size">
+        This text is important! Click this text to enlarge it if needed!
+    </div>
+    <div>
+        <form action="size-larger.html">
+            <button id="enlarge">Enlarge Text</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
+
+
+size2.js
+$(document).ready(function() {
+$("#enlarge").click(function(event) {
+event.preventDefault();
+$("#change-size").addClass("large-font");
+});
+});
+
+
+OUTPUT:
+  
+
+
+
+4. bubble.html
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Example</title>
+    <style>
+        #outer {
+            border: 1px solid #000;
+            background-color: #00FF33;
+            padding: 20px;
+        }
+
+
+        #middle {
+            border: 1px solid #000;
+            background-color: #0000FF;
+            padding: 10px;
+        }
+
+
+        #inner {
+            border: 1px solid #000;
+            background-color: #FFFFFF;
+            padding: 5px;
+        }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="bubble.js" type="text/javascript"></script>
+<body>
+    <div id="outer">
+        <p id="middle">
+            <a id="inner" href="page.html">Show Message</a>
+        </p>
+    </div>
+    <div id="text"></div>
+</body>
+</html>
+
+
+bubble.js
+$(document).ready(function() {
+$("#outer").mouseout(function() {
+$("#text").append("Mouseout!<br>");
+});
+});
+
+
+OUTPUT:
+  
+
+
+
+5.  bubble1.html
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Example</title>
+    <style>
+        #outer {
+            border: 1px solid #000;
+            background-color: #00FF33;
+            padding: 20px;
+        }
+        #middle {
+            border: 1px solid #000;
+            background-color: #0000FF;
+            padding: 10px;
+        }
+        #inner {
+            border: 1px solid #000;
+            background-color: #FFFFFF;
+            padding: 5px;
+        }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="bubble1.js" type="text/javascript"></script>
+<body>
+    <div id="outer">
+        <p id="middle">
+            <a id="inner" href="page.html">Show Message</a>
+        </p>
+    </div>
+    <div id="text"></div>
+</body>
+</html>
+
+
+bubble1.js
+$(document).ready(function() {
+$("#outer").mouseleave(function() {
+$("#text").append("Mouseout!<br>");
+});
+});
+
+
+OUTPUT:
+  
+
+
+
+6. trigger.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Example</title>
+    <style type="text/css">
+        #sim-show-msg {
+            border: 1px solid #000;
+            width: 50%;
+        }
+    </style>
+    <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="trigger.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="sim-show-msg">Move the mouse pointer here to avoid
+        clicking!</div>
+    <div id="message"></div>
+    <div>
+        <form action="message.html">
+            <button id="show-msg">Show Message</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+trigger.js
+$(document).ready(function() {
+$("#show-msg").click(function(event) {
+event.preventDefault();
+$("#message").append("Hi, here is a message!<br>");
+});
+$("#sim-show-msg").mouseenter(function() {
+$("#show-msg").trigger("click");
+});
+});
+
+
+OUTPUT:
+  
+
+PHP
+
+
+1. date.php
+    <!-- today.php - A trivial example to illustrate a php document-->
+    <html >
+     <head> <title> today.php </title>
+     </head>
+     <body>
+      <p>
+       <?php
+        print "<b>Welcome to my home page <br /> <br >" ;
+        print "Today is:</b>";
+        print date("l, F jS");
+        print "<br />";
+       ?>
+       </p>
+     </body>
+    </html>
+
+
+OUTPUT:
+   
+2. powers.php
+<html>
+ <head> <title> powers.php </title>
+ </head>
+ <body>
+ <table border = "border">
+  <caption> Powers table </caption>
+  <tr>
+   <th> Number </th>
+   <th> Square Root </th>
+   <th> Square </th>
+   <th> Cube </th>
+   <th> Quad </th>
+  </tr>
+  <?php
+   for ($number = 1; $number <=10; $number++)
+  {
+    $root = sqrt($number);
+    $square = pow($number, 2);
+    $cube = pow($number, 3);
+    $quad = pow($number, 4);
+    print("<tr align = 'center'> <td> $number </td>");
+    print("<td> $root </td> <td> $square </td>");
+    print("<td> $cube </td> <td> $quad </td> </tr>") ;
+  }
+ ?>
+</table>
+</body>
+</html>
+
+
+OUTPUT:
+  
+
+3. sort.php
+<html>
+   <head><title> Sorting </title>
+   </head>
+   <body>
+      <?php
+         $original = array("Fred"=>31, "AI" => 27,
+                                      "Candalf" => "wizard",
+                                       "Betty" => 42, "FProd" =>"hobbit");
+       ?>
+      <h4> Original Array </h4>
+      <?php
+         foreach ($original as $key => $value)
+           print("[$key] => $value <br />");
+
+
+        $new = $original;
+        sort($new);
+      ?>
+      <h4> Array sorted with sort </h4>
+      <?php
+        foreach ($new as $key => $value)
+          print("[$key] = $value <br />");
+        $new = $original;
+        asort($new);
+      ?>
+      <h4> Array sorted with asort </h4>
+      <?php
+        foreach ($new as $key => $value)
+          print("[$key] =   $value    <br />");
+        $new = $original;
+        ksort($new);
+      ?>
+      <h4> Array sorted with ksort </h4>
+      <?php
+        foreach ($new as $key => $value)
+          print("[$key] = $value <br />");
+     ?>
+   </body>
+</html>
+
+
+OUTPUT:
+  
+
+
+
+4. passbyref.php
+<html >
+<head><title > pass by reference </title></head>
+<body>
+<?php
+function set_max(&$max, $first, $second) {
+  If ($first >= $second)
+   $max = $first;
+  else
+   $max = $second;
+}
+$f=10;$s=20;
+set_max($max,$f,$s);// max will have 20
+print ($max);
+?>
+</body>
+</html>
+
+
+OUTPUT:
+  
+
+5. word_table.php
+<html>
+        <body>
+                <?php        
+                        function splitter($str) 
+                        {
+                                         // Create the empty word frequency array
+                                        $freq=array();
+                                        // Split the parameter string into words
+                                        $words=preg_split("/[\.,;:!\? ]\s*/",$str);
+                                        // Loop to count the words (either increment or initialize to 1)
+                                        foreach($words as $word)
+                                        {
+                                                $keys=array_keys($freq);
+                                                if(in_array($word,$keys))
+                                                        $freq[$word]++;
+                                                else
+                                                        $freq[$word]=1;
+                                        }                
+                                                
+                                        return $freq;
+                        }#** End of splitter
+                        // Main Test Drive
+                          $str = "apples are good for you, or don't you like apples?
+                                         or maybe you like oranges better than apples";
+                        //call splitter
+                        $tb1=splitter($str); 
+                                                    
+                        // Display the words and their frequencies
+                         print "<br />  Word Frequency <br /> <br />";
+                        $sorted_keys=array_keys($tb1);
+                        sort($sorted_keys);
+                                                           foreach($sorted_keys as $word)
+                                                         print " $word $tb1[$word] <br \>";
+                ?>
+        </body>
+</html>
+
+
+OUTPUT:
+  
+
+6. popcorn.php
+<html >
+ <head>
+  <title> Popcorn Sales - for PHP handling </title>
+ </head>
+ <body>
+  <form action = "popcorn1.php"
+      method = "post">
+<h2> Welcome to Millennium Gymnastics Booster Club Popcorn
+      Sales </h2>
+ <table>
+
+
+<!--Text widgets for the customer's name and address-->
+   <tr>
+     <td> Buyer's Name: </td>
+     <td> <input type = "text" name = "name"
+                 size = "30" /></td>
+   </tr>
+   <tr>
+     <td> Street Address: </td>
+     <td> <input type = "text" name = "street"
+                 size = "30" /></td>
+   </tr>
+   <tr>
+     <td> City, State, Zip: </td>
+     <td> <input type = "text" name = "city"
+                 size = "30" /></td>
+   </tr>
+ </table>
+ <p />
+ <table border = "border">
+
+
+<!-- First, the column headings -->
+   <tr>
+     <th> Product </th>
+     <th> Price </th>
+     <th> Quantity </th>
+   </tr>
+
+
+<!--Now, the table data entries-->
+   <tr>
+     <td> Unpopped Popcorn (1 lb.)  </td>
+     <td> $3.00 </td>
+     <td align = "center">
+       <input type   "text" name = "unpop"
+              size =  "3" /></td>
+   </tr>
+   <tr>
+     <td> Caramel Popcorn (2 lb. canister) </td>
+     <td> $3.50 </td>
+     <td align = "center">
+       <input type = "text" name =  "caramel"
+              size = "3" /> </td>
+   </tr>
+  <tr>
+           <td> Caramel Nut Popcorn (2 lb. canister) </td>
+           <td> $4.50 </td>
+           <td align = "center">
+             <input type  = "text" name  = "caramelnut"
+                    size  = "3" /> </td>
+         </tr>
+         <tr>
+           <td> Toffey Nut Popcorn (2 lb. canister) </td>
+           <td> $5.00 </td>
+           <td align = "center">
+             <input type = "text" name = "toffeynut"
+                    size = "3" /> </td>
+         </tr>
+       </table>
+       <p />
+
+
+<!--    The radio buttons for the payment method -->
+       <h3> Payment Method </h3>
+       <p>
+         <input type = "radio" name = "payment" value = "visa"
+               checked = "checked" />
+           Visa <br />
+         <input type = "radio" name = "payment" value = "mc" />
+           Master Card <br />
+         <input type = "radio" name =  "payment"
+                value = "discover" />
+           Discover <br />
+         <input type = "radio" name =  "payment" value = "check" />
+           Check <br /> <br />
+
+
+<!-- The submit and reset buttons   -->
+         <input type = "submit" value = "Submit Order" />
+         <input type = "reset" value = "Clear Order Form" />
+       </p>
+    </form>
+  </body>
+</html>
+OUTPUT:
+  
+
+
+
+7. popcorn1.php
+<html>
+<head>
+<title> Process the popcorn3.html form </title>
+</head>
+<body>
+   <?php
+// Get form data values
+     $unpop = $_POST["unpop"];
+     $caramel = $_POST["caramel"];
+     $caramelnut = $_POST["caramelnut"];
+     $toffeynut = $_POST["toffeynut"];
+     $name = $_POST["name"];
+     $street = $_POST["street"];
+     $city = $_POST["city"];
+     $payment = $_POST["payment"];
+// If any of the quantities are blank, set them to zero
+     if ($unpop == " ") $unpop = 0;
+     if ($caramel == " ") $caramel = 0;
+     if ($caramelnut ==  " ") $caramelnut = 0;
+     if ($toffeynut == " ") $toffeynut = 0;
+// Compute the item costs and total cost
+     $unpop_cost = 3.0 * $unpop;
+     $caramel_cost = 3.5 * $caramel;
+     $caramelnut_cost = 4.5 * $caramelnut;
+     $toffeynut_cost = 5.0 * $toffeynut;
+     $total_price = $unpop_cost + $caramel_cost +
+                    $caramelnut_cost + $toffeynut_cost;
+     $total_items = $unpop + $caramel + $caramelnut + $toffeynut;
+// Return the results to the browser in a table
+   ?>
+   <h4> Customer: </h4>
+   <?php
+     print ("$name <br /> $street <br /> $city <br />");
+   ?>
+   <p /> <p />
+   <table border = "border"�
+     <caption> Order Information </caption>
+     <tr>
+       <th> Product </th>
+       <th> Unit Price </th>
+       <th> Quantity Ordered </th>
+       <th> Item Cost </th>
+     </tr>
+    <tr align = "center">
+     <td> Unpopped Popcorn </td>
+     <td> $3.00 </td>
+     <td> <?php print ("$unpop"); ?> </td>
+     <td> <?php printf ("$ %4.2f", $unpop_cost); ?>
+     </td>
+    </tr>
+    <tr align = "center">
+     <td> Caramel Popcorn </td>
+     <td> $3.50 </td>
+     <td> <?php print ("$caramel"); ?> </td>
+     <td> <?php printf ("$ %4.2f", $caramel_cost); ?>
+     </td>
+     </tr>
+    <tr align = "center">
+     <td> Caramel Nut Popcorn </ta>
+     <td> $4.50 </td>
+     <td> <?php print ("$caramelnut"); ?> </td>
+     <td> <?php printf ("$ %4.2f", $caramelnut_cost) ?>
+     </td>
+    </tr>
+    <tr align = "center">
+     <td> Toffey Nut Popcorn </td>
+     <td> $5.00 </ta>
+     <td> <?php print ("$toffeynut"); ?> </td>
+     <td> <?php printf ("$ %4.2f", $toffeynut_cost); ?>
+     </td>
+    </tr>
+   </table>
+   <p /> <p />
+   <?php
+    print "You ordered $total_items popcorn items <br />";
+    printf ("Your total bill is: $ %5.2f <br />", $total_price);
+    print "Your chosen method of payment is: $payment <br />";
+   ?>
+  </body>
+</html>
+OUTPUT:
+  
+
+
+
+8. grade.php
+<?php
+        $m1=$_REQUEST['i1'];
+        $m2=$_REQUEST['i2'];
+        $m3=$_REQUEST['i3'];
+        settype($m1,"integer");
+        settype($m2,"integer");
+        settype($m3,"integer");
+        if($m1 >=40 && $m2>=40 && $m3>=40)
+        {
+                $p=(($m1+$m2+$m3)/300)*100;
+                if($p >= 70)
+                        echo "distinction";
+                else if($p>=60)
+                        echo "First division";
+                else if($p >= 50)
+                        echo "second division";
+                else
+                        echo "Third division";
+        }
+        else        
+                echo "Fail";
+?>
+
+
+OUTPUT:
+  
+
+9. marks.php 
+<html>
+        <body>
+                <form action="grade.php" method="post" >
+                M1:<input type="text" name="i1"/><br/>
+                M2:<input type="text" name="i2"/><br/>
+                M3:<input type="text" name="i3"/><br/>
+                <input type="submit" value="grade" />
+                </form>
+        </body>
+</html>
+
+
+OUTPUT:
+  
+  
+
+________________
+
+
+WEEK 13
+
+
+1. mysqlcreate.php
+<html>
+        <body>
+                <?php
+                        mysql_connect("localhost","root","") or die("not connected");
+                        $q="create database stu";
+                        mysql_query($q) or die("not executed");
+                        echo "student database created";
+                ?>
+        </body>
+</html>
+
+
+2. createtable.php
+<html>
+        <body>
+                <?php
+                        mysql_connect("localhost","root","") or die("not connected");
+                        mysql_select_db("student") or die("not opened");
+                        $q="create table std1(sno int(5) primary key,name varchar(20) not null,gender varchar(10) not null)";
+                        mysql_query($q)or die("not executed");
+                        echo "std1 table created";
+                ?>
+        </body>
+</html>
+
+
+3. insert1.php
+<html>
+        <body>
+                <form action="insert2.php" method="post">
+                        sno<input type="text" name="t1" /><br/>
+                        name<input type="text" name="t2"  /><br />
+                        gender<input type="text" name="t3" /><br />
+                        <input type="submit" value="submit" />
+                </form>
+        </body>
+</html>
+
+
+4. insert2.php
+<?php
+$s = $_REQUEST['t1'];
+$n = $_REQUEST['t2'];
+$g =$_REQUEST['t3'];
+settype($s,"integer");
+mysql_connect("localhost","root","") or die("unable to Connect");
+mysql_select_db("student") or die("unable to open");
+$q = "insert into std1 values($s,'$n','$g')";
+mysql_query($q) or die("not executed");
+echo "one record inserted";
+?>
+
+
+5. delete1.php
+<html>
+        <body>
+                <form action="delete2.php" method="post">
+                <h1> enter the student no which you want to delete</h1>
+                Sno<input type="text" name="t1" size="10"/><br />
+                <input type="submit" value="submit form" />
+                </form>
+        </body>
+</html>
+
+
+6. delete2.php
+<html>
+<body>
+        <?php
+        $n=$_REQUEST['t1'];
+        mysql_connect("localhost","root","") or die("unable to Connect database");
+        mysql_select_db("student") or die("unable to open database");
+        $q = "delete from std1 where sno=$n";
+        mysql_query($q) or die("unable to execute query");
+        echo "one record deleted";
+        mysql_close();
+        ?>
+</body>
+</html>
+
+
+7. select.php
+<?php
+mysql_connect("localhost","root","") or die("unable to Connect to database");
+mysql_select_db("student") or die("unable to open database");
+$q="select * from std1";
+$res=mysql_query($q) or die("unable to excute");
+$n=mysql_num_rows($res);
+if($n > 0)
+{
+        echo "<table border='1' width='30%' height='30%' style='font-size:20pt;'>";
+        echo "<tr><th>SNo</th><th>Name</th><th>gender</th></tr>";
+        for($r=1;$r <=$n;$r++)
+        {
+                $row=mysql_fetch_array($res);
+                echo "<tr><td>".$row[0]."</td><td>".$row[1]."</td><td>".$row[2]."</td></tr>";
+        }
+        echo "</table>";
+}
+else
+        echo "records not found in the table";
+mysql_close();
+?>
+
+
+8. update1.php
+<html>
+        <body>
+                <h1>enter the student details which you want update </h1>
+                <form action="update2.php" method="post">
+                        sno:<input type="number" name="t1" /><br/>
+                        name:<input type="text" name="t2"  /><br />
+                        gender:<input type="text" name="t3" /><br />
+                        <input type="submit" value="submit form" />
+                </form>
+        </body>
+</html>
+
+
+9. update2.php
+<html>
+<body>
+<?php
+$e=$_REQUEST['t1'];
+$n=$_REQUEST['t2'];
+$g=$_REQUEST['t3'];
+settype($e,"integer");
+mysql_connect("localhost","root","") or die("unable to Connect the database");
+mysql_select_db("student") or die("unable to open the database");
+$q="update std1 set name='$n',gender='$g' where sno=$e";
+mysql_query($q) or die("fail to execute query");
+echo "one record updated";
+mysql_close();
+?>
+</body>
+</html>
+
+
+10. carsdata.php
+<!-- carsdata.html
+       Uses a form to collect a query against the cars
+       database.
+       Calls the PHP script, accesscars.php to perform
+       the given query and display the results
+       -->
+    <html>
+     <head><title> Access to the cars database </title>
+     </head>
+     <body>
+<p>
+     Please enter your query:
+     <br />
+     <form action = "access_carsex.php" method = "post">
+       <textarea rows = "2" cols = "80" name = "query" >
+       </textarea>
+       <br /><br />
+       <input type="reset" value = "Reset" />
+       <input type="submit" value = "Submit request" />
+     </form>
+    </p>
+  </body>
+</html>
+
+
+11. accesscaesex.php
+<!--  access_cars.php
+     A PHP script to access the cars database
+     through MySQL-->
+
+
+<html>
+  <head>
+    <title> Access the cars database with MySQL </title>
+  </head>
+  <body>
+<?php
+
+
+// Connect to MySQL
+$db = mysql_connect("localhost", "root", "");
+if (!$db)
+     exit("Error - Could not connect to MySQL");
+
+
+// Select the cars database
+$er = mysql_select_db("student");
+if (!$er)
+    exit("Error - Could not select the cars database");
+
+
+// Get the query and clean it up (delete leading and trailing
+// whitespace and remove backslashes from magic_quotes_gpc)
+$query = $_POST['query'];
+trim($query);
+$query = stripslashes($query);
+// Display the query, after fixing html characters
+$query_html = htmlspecialchars($query);
+print "<p> <b> The query is: </b> " . $query_html . "</p>";
+
+
+// Execute the query
+$result = mysql_query($query);
+print "the result is ".$result;
+if (!$result) {
+   print "Error - the query could not be executed" ;
+   $error = mysql_error();
+   print "<p>" . $error . "</p>";
+   exit;
+}
+// Display the results in a table
+print "<table><caption> <h2> Query Results </h2> </caption>";
+print "<tr align = 'center'>";
+
+
+// Get the number of rows in the result, as well as the first row
+// and the number of fields in the rows
+$num_rows = mysql_num_rows($result);
+$row = mysql_fetch_array($result);
+$num_fields = mysql_num_fields($result);
+
+
+// Produce the column labels
+$keys = array_keys($row);
+for ($index = 0; $index < $num_fields; $index++)
+   print "<th>" . $keys[2 * $index + 1] .   "</th>";
+print "</tr>";
+
+
+// Output the values of the fields in the rows
+for ($row_num = 0; $row_num < $num_rows; $row_num++) {
+   print "<tr align = 'center'>";
+   $values = array_values($row);
+   for ($index = 0; $index < $num_fields; $index++) {
+       $value = htmlspecialchars($values[2 * $index + 1]);
+       print "<th>" . $value . "</th> ";
+   }
+   print "</tr>";
+   $row = mysql_fetch_array($result);
+}
+print "</table>";
+?>
+ </body>
+</html>
+
+
+12. accesscars2.php
+ <!--access_cars2.php
+    A PHP script to both get a query from the user and
+    access the cars database through MySQL to get and
+    display the result of the query.
+    -->
+<html>
+  <head>
+    <title> Access the cars database with MySQL </title>
+  </head>
+  <body>
+ <?php
+
+
+ // Is this the first request?
+ $stage = $_POST["stage"];
+ if (!IsSet($stage))  {
+ ?>
+    <p>
+      Please enter your query:
+      <br />
+      <form method = "POST" action = "access_cars2.php" >
+        <textarea rows = "2" cols = "80" name = "query">
+        </textarea>
+        <br /><br />
+        <input type= "hidden" name = "stage" value = "1" />
+        <input type ="submit" value = "Submit request" />
+      </form>
+    </p>
+ <?php
+  }else { // $stage was set, so process the query
+
+
+ // Connect to MySQL
+  $db = mysql_connect("localhost", "root", "");
+  if (!$db)
+     exit("Error - Could not connect to MySQL");
+
+
+ // Select the cars database
+  $er = mysql_select_db("student");
+  if (!$er)
+    exit ("Error - Could not select the cars database");
+
+
+// Clean up the given query (delete leading and trailing
+// whitespace
+  $query = $_POST['query'];
+  trim($query);
+$query = stripslashes($query);
+ // Fix the query for browser display and display it
+  $query_html = htmlspecialchars($query);
+  print "<p> <b> The query is: </b>" . $query_html . "</p>";
+// Execute the query
+  $result = mysql_query($query);
+  if (!$result) {
+    print "Error - the query could not be executed";
+    $error = mysql_error();
+    print "<p>" .  $error .   "</p>";
+    exit;
+  }
+
+
+// Display the results in a table
+  print "<table><caption> <h2> Query Results </h2> </caption>";
+  print "<tr align = 'center'>";
+
+
+// Get the number of rows in the result, as well as the first row
+// and the number of fields in the rows
+  $num_rows = mysql_num_rows($result);
+  $row = mysql_fetch_array($result);
+  $num_fields = mysql_num_fields($result);
+
+
+// Produce the column labels
+  $keys = array_keys($row);
+  for ($index = 0; $index < $num_fields; $index++)
+    print "<th>" . $keys[2 * $index + 1] . "</th>";
+  print "</tr>";
+
+
+// Output the values of the fields in the rows
+  for ($row_num = 0; $row_num < $num_rows; $row_num++){
+    print "<tr align = 'center'>";
+    $values = array_values($row);
+    for ($index = 0; $index < $num_fields; $index++)
+{
+      $value = htmlspecialchars($values[2 * $index  +  1]);
+      print "<th>" .  $value .  "</th> ";
+    }
+    print "</tr>";
+    $row = mysql_fetch_array($result);
+     }// end of the for ($row_num = 0;.....
+  print "</table>";
+   }// end of the else clause
+?>
+</body>
+</html>
+
+
+13. accesscars.php
+<!--  access_cars.php
+     A PHP script to access the cars database
+     through MySQL-->
+
+
+<html>
+  <head>
+    <title> Access the cars database with MySQL </title>
+  </head>
+  <body>
+<?php
+
+
+// Connect to MySQL
+$db = mysql_connect("localhost", "rws", "");
+if (!$db)
+     exit("Error - Could not connect to MySQL");
+
+
+// Select the cars database
+$er = mysql_select_db("cars");
+if (!$er)
+    exit("Error - Could not select the cars database");
+
+
+// Get the query and clean it up (delete leading and trailing
+// whitespace and remove backslashes from magic_quotes_gpc)
+$query = $_POST['query'];
+trim($query);
+$query = stripslashes($query);
+// Display the query, after fixing html characters
+$query_html = htmlspecialchars($query);
+print "<p> <b> The query is: </b> " . $query_html . "</p>";
+
+
+// Execute the query
+$result = mysql_query($query);
+if (!$result) {
+   print "Error - the query could not be executed" ;
+   $error = mysql_error();
+   print "<p>" . $error . "</p>";
+   exit;
+}
+
+
+// Display the results in a table
+print "<table><caption> <h2> Query Results </h2> </caption>";
+print "<tr align = 'center'>";
+
+
+// Get the number of rows in the result, as well as the first row
+// and the number of fields in the rows
+$num_rows = mysql_num_rows($result);
+$row = mysql_fetch_array($result);
+$num_fields = mysql_num_fields($result);
+
+
+// Produce the column labels
+$keys = array_keys($row);
+for ($index = 0; $index < $num_fields; $index++)
+   print "<th>" . $keys[2 * $index + 1] .   "</th>";
+print "</tr>";
+
+
+// Output the values of the fields in the rows
+for ($row_num = 0; $row_num < $num_rows; $row_num++) {
+   print "<tr align = 'center'>";
+   $values = array_values($row);
+   for ($index = 0; $index < $num_fields; $index++) {
+       $value = htmlspecialchars($values[2 * $index + 1]);
+       print "<th>" . $value . "</th> ";
+   }
+   print "</tr>";
+   $row = mysql_fetch_array($result);
+}
+print "</table>";
+?>
+ </body>
+</html>
+
+
+tempCodeRunnerFile.php
+<?php
+<!-- carsdata.html
+       Uses a form to collect a query against the cars
+       database.
+       Calls the PHP script, accesscars.php to perform
+       the given query and display the results
+       -->
+    <html>
+     <head><title> Access to the cars database </title>
+     </head>
+     <body>
+<p>
+     Please enter your query:
+     <br />
+     <form action = "access_carsex.php" method = "post">
+       <textarea rows = "2" cols = "80" name = "query" >
+       </textarea>
+       <br /><br />
+       <input type="reset" value = "Reset" />
+       <input type="submit" value = "Submit request" />
+     </form>
+    </p>
+  </body>
+</html>
+
+
+________________
