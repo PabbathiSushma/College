@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script language="javascript">
+        var fa = function fact(n) {
+            if (n == 1)
+                return 1;
+            else
+                return n * fact(n - 1);
+        }
+    </script>
+</head>
+<body>
+    <form name="f">
+        <br/>
+        Number : <input type="text" name="t1"/> <br/><br/><br/>
+        Factorial : <input type="text" name="t2"/><br /><br/><br/>
+        <input type="button" value="Result" onclick="document.f.t2.value=fa(document.f.t1.value);"/>
+    </form>
+</body>
+</html>

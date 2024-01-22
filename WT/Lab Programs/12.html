@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Aggregate Function</title>
+</head>
+<body>
+    <script language="javascript">
+        function agg() {
+            var i1, i2, i3;
+            document.write("<h1>Aggregate Percentage of MCA</h1>");
+            document.write("<table border='1' width='50%' height='20%'>");
+            document.write("<tr><th>Year</th><th>Percentage</th></tr>");
+            i1 = parseFloat(prompt("Enter MCA 1st Semester:"));
+            document.write("<tr><td>MCA 1st Semester</td><td>" + i1 + "</td></tr>");
+            i2 = parseFloat(prompt("Enter MCA 2nd Semester:"));
+            document.write("<tr><td>MCA 2nd Semester</td><td>" + i2 + "</td></tr>");
+            i3 = parseFloat(prompt("Enter MCA 3rd Semester:"));
+            document.write("<tr><td>MCA 3rd Semester</td><td>" + i3 + "</td></tr>");
+            var aggregate = ((i1 + i2 + i3) / 3).toFixed(2); // limit to 2 decimal places
+            document.write("<tr><td>Aggregate Percentage</td><td>" + aggregate + "</td></tr>");
+            document.write("</table>");
+        }
+    </script>
+    <form>
+        <br/>
+        <input type="button" value="MCA Aggregate Percentage" onClick="agg()">
+    </form>
+</body>
+</html>

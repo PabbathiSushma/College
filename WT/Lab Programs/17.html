@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>javascript</title>
+    <script type="text/javascript">
+        var d, x, y;
+        function initial() {
+            d = document.getElementById('x').style;
+            x = d.left;
+            y = d.top;
+            x = x.match(/\d+/);//initial x
+            y = y.match(/\d+/);//initial y
+            movetext();
+        }
+        function movetext() {
+            if (x < 130) {
+                x++;
+                d.left = x + "px";
+
+            }
+            if (y < 130) {
+                y++;
+                d.top = y + "px";
+
+            }
+            if ((x != 130) || (y != 130)) {
+                setInterval("movetext()", 1000);
+            }
+        }
+
+    </script>
+</head>
+<body onload="initial();">
+    <p id="x" style="position:absolute;left:10px;top:10px;">CBIT</p>
+</body>
+</html>

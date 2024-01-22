@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script language="javascript">
+        var i, n, r = 0, rem;
+        function reverse(n) {
+            while (n > 0) {
+                rem = n % 10;
+                r = r * 10 + rem;
+                n = parseInt(n / 10);
+            }
+            return r;
+        }
+    </script>
+<body>
+    <form name=f>
+        <br/>
+        Number : <input type="text" name="t1"> <br/><br/><br/>
+        Reverse Number : <input type="text" name="t2"><br/><br/><br/>
+        <input type="button" value="Result" onclick="document.f.t2.value=reverse(document.f.t1.value);">
+    </form>
+</body>
+
+</html>

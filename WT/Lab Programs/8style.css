@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+li {
+  color: red;
+}
+ul {
+  margin-left: 2cm;
+}
+ulul {
+  margin-left: 5cm;
+}

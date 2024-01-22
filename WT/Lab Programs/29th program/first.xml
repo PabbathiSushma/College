@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="college.xsl"?>
+<college>
+    <student>
+        <id>11</id>
+        <name>jayaram</name>
+    </student>
+    <student>
+        <id>12</id>
+        <name>ram</name>
+    </student>
+    <staff>
+        <id>33</id>
+        <name>srinivas</name>
+    </staff>
+    <staff>
+        <id>34</id>
+        <name>srinu</name>
+    </staff>
+</college>

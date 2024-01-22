@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<!DOCTYPE cars [
+    <!ELEMENT cars (catalog+)>
+    <!ELEMENT catalog (make, model, year,color,engine, number_of_doors, transmission_type, accessories)>
+    <!ELEMENT make (#PCDATA)>
+    <!ELEMENT model (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT engine (number_of_cylinders, fuel_system )>
+    <!ELEMENT number_of_cylinders (#PCDATA)>
+    <!ELEMENT fuel_system (#PCDATA)>
+    <!ELEMENT number_of_doors (#PCDATA)>
+    <!ELEMENT transmission_type (#PCDATA)>
+    <!ELEMENT accessories (#PCDATA)>
+    <!ATTLIST accessories radio CDATA #REQUIRED>
+    <!ATTLIST accessories air_conditioning CDATA #REQUIRED>
+    <!ATTLIST accessories power_windows CDATA #REQUIRED>
+    <!ATTLIST accessories power_steering CDATA #REQUIRED>
+    <!ATTLIST accessories power_steering CDATA #REQUIRED>
+    <!ATTLIST accessories power_brakes CDATA #REQUIRED>
+
+    <!ENTITY J "Jaguar">
+    <!ENTITY L "Land Rover">
+    <!ENTITY M "Mercedes">
+]>
+<cars_catalog>
+    <catalog>
+        <make>&J; </make>
+        <model> 2009 </model>
+        <color>blue hase</color>
+        <engine>
+            <number_of_cylinders>2</number_of_cylinders>
+            <fuel_system>carbureted</fuel_system>
+        </engine>
+        <number_of_doors>4</number_of_doors>
+        <transmission_type>automatic</transmission_type>
+        <accessories radio="yes" air_conditioning="yes"
+            power_windows="yes" power_steering="yes"
+            power_brakes="yes"></accessories>
+    </catalog>
+    <catalog>
+        <make>&L; </make>
+        <model> 2021 </model>
+        <color>Redolent Red</color>
+        <engine>
+            <number_of_cylinders>3</number_of_cylinders>
+            <fuel_system>carbureted</fuel_system>
+        </engine>
+        <number_of_doors>4</number_of_doors>
+        <transmission_type>CVT</transmission_type>
+        <accessories radio="yes" air_conditioning="yes"
+            power_windows="yes" power_steering="yes"
+            power_brakes="yes"></accessories>
+    </catalog>
+    <catalog>
+        <make>&M; </make>
+        <model> 2020 </model>
+        <color>Dark Seltzer</color>
+        <engine>
+            <number_of_cylinders>2</number_of_cylinders>
+            <fuel_system>fuel injector</fuel_system>
+        </engine>
+        <number_of_doors>4</number_of_doors>
+        <transmission_type>manual</transmission_type>
+        <accessories radio="yes" air_conditioning="yes"
+            power_windows="yes" power_steering="yes"
+            power_brakes="yes"></accessories>
+    </catalog>
+
+</cars_catalog>

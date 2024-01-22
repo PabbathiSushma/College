@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script>
+        function check() {
+            var y = document.getElementById("u").value;
+            var q = /[a-z _]+[a-z _]/;
+            if (q.test(y) == false)
+                alert("It is not a valid user name");
+            else
+                alert("It is a valid user name");
+
+            var x = document.getElementById("t").value;
+            var p = /[a-z 0-9 - _ . ]+@[a-z]+\.(com)/;
+            if (p.test(x) == false)
+                alert("It is not a valid email id");
+            else
+                alert("It is valid email id");
+        }
+    </script>
+</head>
+<body>
+    <br/>
+    User Name : <input type="text" id="u"> <br/>ex: starts with only alphabet or Underscore <br/><br/>
+    Email Id:<input type="text" id="t"> <br/>ex: username@host.com<br/><br/>
+    <input type="button" value="submit" onclick="check()">
+</body>
+
+</html>

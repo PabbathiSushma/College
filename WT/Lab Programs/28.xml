@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hospital>
+	<patient1>
+		<id>11</id>
+		<name>jayaram</name>
+		<date>8/8/2018</date>
+		<complaint>fever</complaint>
+	</patient1>
+	<patient2>
+		<id>12</id>
+		<name>jayaram</name>
+		<date>9/8/2018</date>
+		<complaint>heart</complaint>
+	</patient2>
+</hospital>
